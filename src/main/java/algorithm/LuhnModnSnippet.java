@@ -29,6 +29,13 @@ package algorithm;
  */
 public class LuhnModnSnippet {
 
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LuhnModnSnippet() {
+    // Utility class
+  }
+
   private static final String CODE_POINTS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
   /**

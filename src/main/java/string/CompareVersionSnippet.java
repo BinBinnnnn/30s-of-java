@@ -32,6 +32,13 @@ import java.util.Arrays;
 public class CompareVersionSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CompareVersionSnippet() {
+    // Utility class
+  }
+
+  /**
    * Compares two version strings.
    * Credits: https://stackoverflow.com/a/6702000/6645088 and https://stackoverflow.com/a/44592696/6645088
    *

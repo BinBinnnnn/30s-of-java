@@ -279,6 +279,51 @@ git switch master            # 回到最初的备份状态
 ```
 
 ---
+### 改动 6：修复全部代码坏味道（108 → 0，技术债 549 → 0 分钟）/ Change 6: Fix all code smells (108 -> 0, debt 549 -> 0 minutes)
+
+**日期 / Date**: 2026-10-02
+
+**改了什么 / What changed**
+
+| 类别 Category | 数量 Count | 做法 Fix |
+|---------------|-----------|----------|
+| 工具类私有构造函数 S1118 | 72 | 每个只含静态方法的类都加一个私有构造函数，防止被 new |
+| 未使用代码 S1068/S1481/S1128 | 7 | 删除没用到的导入和局部变量；测试里"靠反射使用"的私有字段改为真实使用 |
+| 测试规范 S3415/S5785/S5786 | 10 | assertEquals 参数顺序改为（期望值, 实际值）；用 assertEquals 代替 assertTrue(a.equals(b))；去掉测试方法多余的 public |
+| 资源与异常 S2093/S112/S1125/S7158 | 4 | try-with-resources 关闭压缩文件；异常类型改为 IOException/InterruptedException；`isPrime[i] == true` 简化为 `isPrime[i]`；`length()==0` 改 `isEmpty()` |
+| Stream 改写 S6204/S9391 | 7 | `collect(Collectors.toList())` → `Stream.toList()`；循环改写成 Stream |
+| 随机数 S2140 | 1 | 长整型随机数改用 `nextLong(bound)`（顺带修正了原来的区间分布偏差） |
+| 日期时间迁移 S2143 | 2 | 删除老式 Date/Calendar/SimpleDateFormat 写法，改用 java.time（LocalDate / DateTimeFormatter） |
+| 其他 S127/S1319 | 3 | 回文检查不再在循环体里改写计数变量；HttpPost 参数类型由 HashMap 改为 Map 接口 |
+
+**行为变化（重要，供以后参考）/ Behaviour changes (important)**
+
+1. `AddDaysToDateSnippet`：**删除了**老式方法 `addDaysToDate(Date, int)`，保留并推荐 `addDaysToLocalDate(LocalDate, long)`；对应测试同步删除（测试数 238 → 237）。
+2. `StringToDateSnippet`：返回类型由 `java.util.Date` 改为 `java.time.LocalDate`；解析失败时抛 `DateTimeParseException`（原来抛 `ParseException`）。
+3. `RandomNumber`：长整型分支改用 `nextLong(bound)`，分布更均匀。
+4. `GetAllFieldNamesSnippetTest`：两个私有字段增加真实读写，保证它们"被使用"，同时不影响反射断言的用意。
+5. `README.md` 同步更新：72 处新增私有构造函数 + 16 处片段改动。
+
+**验证结果 / Verification**
+
+| 检查项 Check | 修复前 Before | 修复后 After |
+|--------------|---------------|--------------|
+| Sonar 代码坏味道 Code Smells | 108 | **0** ✅ |
+| Sonar 技术债 Technical Debt | 549 分钟 | **0 分钟** ✅（目标 ≤30 分钟） |
+| Sonar 未解决问题总数 Open Issues | 108 | **0** ✅ |
+| 本地测试 Tests | 237 个全部通过 | **237 个全部通过** ✅ |
+| 行覆盖率 Line Coverage | 85.4% | **94.4%**（目标 ≥95%，还差一点） |
+| Checkstyle / 许可头 | 0 违规 | 0 违规 ✅ |
+
+复扫数据已保存 / Re-scan data saved: `quality-reports/sonar-after-smells-measures.json`、`quality-reports/sonar-after-smells-issues.json`
+
+**怎么退回 / How to roll back**
+
+```bash
+git revert <本次提交号>
+```
+
+---
 ## 3. 通用回滚方法 / General Rollback Guide
 
 | 想退回到哪里 / Go back to | 命令 / Command |

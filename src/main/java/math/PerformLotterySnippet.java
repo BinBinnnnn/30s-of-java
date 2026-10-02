@@ -33,6 +33,13 @@ import java.util.Collections;
 public class PerformLotterySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private PerformLotterySnippet() {
+    // Utility class
+  }
+
+  /**
    * Generate random lottery numbers.
    *
    * @param numNumbers    how many performLottery numbers are available (e.g. 49)

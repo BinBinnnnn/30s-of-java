@@ -24,7 +24,7 @@
 
 package array;
 
-import java.util.ArrayList;
+
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -52,12 +52,10 @@ public class ArrayModeSnippet {
       frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
       maxCount = Math.max(maxCount, frequencyMap.get(num));
     }
-    List<Integer> modes = new ArrayList<>();
-    for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
-      if (entry.getValue() == maxCount) {
-        modes.add(entry.getKey());
-      }
-    }
-    return modes;
+    final var maxFrequency = maxCount;
+    return frequencyMap.entrySet().stream()
+        .filter(entry -> entry.getValue() == maxFrequency)
+        .map(Map.Entry::getKey)
+        .toList();
   }
 }

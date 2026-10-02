@@ -27,12 +27,19 @@ package cls;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 /**
  * GetAllPublicFieldNamesSnippet.
  */
 public class GetAllPublicFieldNamesSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetAllPublicFieldNamesSnippet() {
+    // Utility class
+  }
 
   /**
    * Print all declared public field names of the class or the interface the class extends.
@@ -43,6 +50,6 @@ public class GetAllPublicFieldNamesSnippet {
   public static List<String> getAllPublicFieldNames(final Class<?> clazz) {
     return Arrays.stream(clazz.getFields())
         .map(Field::getName)
-        .collect(Collectors.toList());
+        .toList();
   }
 }

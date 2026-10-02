@@ -32,6 +32,13 @@ import java.util.Base64;
 public class Base64DecodeSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private Base64DecodeSnippet() {
+    // Utility class
+  }
+
+  /**
    * Decodes a Base64 encoded string to the actual representation.
    *
    * @param input base64 encoded string

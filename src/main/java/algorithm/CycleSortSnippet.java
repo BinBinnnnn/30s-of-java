@@ -30,6 +30,13 @@ package algorithm;
 public class CycleSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CycleSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with cycleSort algorithm.
    *
    * @param arr array to sort

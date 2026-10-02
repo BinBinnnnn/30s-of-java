@@ -30,6 +30,13 @@ package array;
 public class ReverseArraySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReverseArraySnippet() {
+    // Utility class
+  }
+
+  /**
    * The function then reverses the elements of the array between the starting and ending
    * indices using a while loop and a temporary variable `temp`. Finally, the function returns
    * the reversed array.

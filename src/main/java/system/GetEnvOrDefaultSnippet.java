@@ -30,6 +30,13 @@ package system;
 public class GetEnvOrDefaultSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetEnvOrDefaultSnippet() {
+    // Utility class
+  }
+
+  /**
    * Read an environment variable or return a default value when it is missing.
    *
    * @param key environment variable name

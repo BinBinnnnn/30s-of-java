@@ -32,6 +32,13 @@ import java.util.Optional;
 public class SafeCastSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private SafeCastSnippet() {
+    // Utility class
+  }
+
+  /**
    * Safely casts an object to the specified type.
    *
    * @param obj object to cast

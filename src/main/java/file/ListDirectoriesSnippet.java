@@ -32,6 +32,13 @@ import java.io.File;
 public class ListDirectoriesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ListDirectoriesSnippet() {
+    // Utility class
+  }
+
+  /**
    * List directories.
    *
    * @param path the path where to look

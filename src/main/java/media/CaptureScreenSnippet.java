@@ -38,6 +38,13 @@ import javax.imageio.ImageIO;
 public class CaptureScreenSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CaptureScreenSnippet() {
+    // Utility class
+  }
+
+  /**
    * Capture screenshot and save it to PNG file. Credits: https://viralpatel.net/blogs/how-to-take-screen-shots-in-java-taking-screenshots-java/
    *
    * @param filename the name of the file

@@ -33,6 +33,13 @@ import java.util.List;
 public class FibonacciSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private FibonacciSnippet() {
+    // Utility class
+  }
+
+  /**
    * Recursive Fibonacci series. Works only for small n and is spectacularly inefficient
    *
    * @param n given number

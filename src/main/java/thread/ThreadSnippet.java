@@ -30,6 +30,13 @@ package thread;
 public class ThreadSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ThreadSnippet() {
+    // Utility class
+  }
+
+  /**
    * Creates and returns a new thread with the task assigned to it
    * (task will be performed parallel to the main thread).
    *

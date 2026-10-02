@@ -28,12 +28,19 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.Collectors;
+
 
 /**
  * GetAllFieldNamesSnippet.
  */
 public class GetAllFieldNamesSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetAllFieldNamesSnippet() {
+    // Utility class
+  }
 
   /**
    * Print all declared field names of the class or the interface the class extends.
@@ -49,7 +56,7 @@ public class GetAllFieldNamesSnippet {
           Arrays.stream(currentClazz.getDeclaredFields())
               .filter(field -> !field.isSynthetic())
               .map(Field::getName)
-              .collect(Collectors.toList()));
+              .toList());
       currentClazz = currentClazz.getSuperclass();
     }
     return fields;

@@ -30,6 +30,13 @@ package math;
 public class SquareRoot {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private SquareRoot() {
+    // Utility class
+  }
+
+  /**
    * Returns square root of a number.
    *
    * @param num To find SquareRoot

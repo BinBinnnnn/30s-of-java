@@ -32,6 +32,13 @@ import java.util.Arrays;
 public class AnagramSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private AnagramSnippet() {
+    // Utility class
+  }
+
+  /**
    * Checks if two words are anagrams (contains same characters with same frequency in any order).
    *
    * @param s1 The first string to be checked

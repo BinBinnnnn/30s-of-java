@@ -32,6 +32,13 @@ import java.util.Arrays;
 public class MultiArrayConcatenationSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private MultiArrayConcatenationSnippet() {
+    // Utility class
+  }
+
+  /**
    * Generic N array concatenation Credits: Joachim Sauer https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java.
    *
    * @param first is the first array (not null)

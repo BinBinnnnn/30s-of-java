@@ -30,6 +30,13 @@ package string;
 public class MaxCharacterCountSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private MaxCharacterCountSnippet() {
+    // Utility class
+  }
+
+  /**
    * The maximum count of times a specific character appears in a string.
    *
    * @param str َA specific string

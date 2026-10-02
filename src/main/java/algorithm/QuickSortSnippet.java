@@ -30,6 +30,13 @@ package algorithm;
 public class QuickSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private QuickSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with quicksort algorithm.
    *
    * @param arr   array to sort

@@ -37,6 +37,13 @@ import java.util.zip.ZipOutputStream;
 public class ZipFilesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ZipFilesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Zip multiples files.
    *
    * @param srcFilenames array of source file names

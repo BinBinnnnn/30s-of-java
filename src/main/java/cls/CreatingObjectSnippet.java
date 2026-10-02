@@ -32,6 +32,13 @@ import java.lang.reflect.InvocationTargetException;
 public class CreatingObjectSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CreatingObjectSnippet() {
+    // Utility class
+  }
+
+  /**
    * Create object using reflection.
    *
    * @param cls fully qualified name of class includes the package name as String

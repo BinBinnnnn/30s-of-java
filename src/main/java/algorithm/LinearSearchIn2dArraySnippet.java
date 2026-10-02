@@ -30,6 +30,13 @@ package algorithm;
 public class LinearSearchIn2dArraySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private LinearSearchIn2dArraySnippet() {
+    // Utility class
+  }
+
+  /**
    * Search an item with linearSearch algorithm.
    *
    * @param arr    array to search

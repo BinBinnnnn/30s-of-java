@@ -26,11 +26,19 @@ package string;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.stream.Collectors;
 
 /**
  * CommonLettersSnippet.
  */
 public class CommonLettersSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private CommonLettersSnippet() {
+    // Utility class
+  }
 
   /**
    * Find Common Characters inside given two strings.
@@ -40,12 +48,11 @@ public class CommonLettersSnippet {
    * @return Common Characters.
    */
   public static String getCommonLetters(String firstStr, String secondStr) {
-    Set<String> commonLetters = new HashSet<>();
-    for (Character currentCharacter : firstStr.toCharArray()) {
-      if (isCommonLetter(secondStr, currentCharacter)) {
-        commonLetters.add(currentCharacter.toString());
-      }
-    }
+    Set<String> commonLetters = firstStr.chars()
+        .mapToObj(character -> (char) character)
+        .filter(character -> isCommonLetter(secondStr, character))
+        .map(String::valueOf)
+        .collect(Collectors.toCollection(HashSet::new));
     return String.join(" ", commonLetters);
   }
 

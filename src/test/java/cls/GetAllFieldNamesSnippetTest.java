@@ -49,6 +49,13 @@ class GetAllFieldNamesSnippetTest {
       private int fieldTwo;
     }
 
+    var superClass = new SuperClass();
+    superClass.superFieldTwo = 2;
+    assertEquals(2, superClass.superFieldTwo);
+    var testClass = new TestClass();
+    testClass.fieldTwo = 4;
+    assertEquals(4, testClass.fieldTwo);
+
     var list = GetAllFieldNamesSnippet.getAllFieldNames(TestClass.class);
     assertEquals(4, list.size());
     assertTrue(list.contains("fieldOne"));

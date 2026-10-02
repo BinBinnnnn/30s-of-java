@@ -34,6 +34,13 @@ import java.util.List;
 public class ListAllFilesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ListAllFilesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Recursively list all the files in directory.
    *
    * @param path the path to start the search from

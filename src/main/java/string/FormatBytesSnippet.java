@@ -33,6 +33,13 @@ import java.util.Locale;
 public class FormatBytesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private FormatBytesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Convert bytes into Human readable form.
    *
    * @param bytes The value in bytes needed to be converted

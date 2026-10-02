@@ -17,6 +17,13 @@ Inspired by [30 seconds of code](https://github.com/Chalarangelo/30-seconds-of-c
 public class BinarySearchIn2dArraySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private BinarySearchIn2dArraySnippet() {
+    // Utility class
+  }
+
+  /**
   * Search an item with binarySearch algorithm.
   *
   * @param matrix should be sorted
@@ -88,6 +95,13 @@ public class BinarySearchIn2dArraySnippet {
 public class BinarySearchSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private BinarySearchSnippet() {
+    // Utility class
+  }
+
+  /**
    * Search an item with binarySearch algorithm.
    *
    * @param arr sorted array to search
@@ -119,6 +133,13 @@ public class BinarySearchSnippet {
 public class BubbleSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private BubbleSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with bubbleSort algorithm.
    *
    * @param arr array to sort
@@ -143,6 +164,13 @@ public class BubbleSortSnippet {
 
 ```java
 public class CountingSortSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private CountingSortSnippet() {
+    // Utility class
+  }
 
   /**
    * Sort an array having zero or positive numbers with countingSort algorithm.
@@ -183,6 +211,13 @@ public class CountingSortSnippet {
 public class CycleSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CycleSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with cycleSort algorithm.
    *
    * @param arr array to sort
@@ -211,6 +246,13 @@ public class CycleSortSnippet {
 public class InsertionSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private InsertionSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with insertionSort algorithm.
    *
    * @param arr array to sort
@@ -234,6 +276,13 @@ public class InsertionSortSnippet {
 
 ```java
 public class LinearSearchIn2dArraySnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LinearSearchIn2dArraySnippet() {
+    // Utility class
+  }
 
   /**
    * Search an item with linearSearch algorithm.
@@ -263,6 +312,13 @@ public class LinearSearchIn2dArraySnippet {
 public class LinearSearchSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private LinearSearchSnippet() {
+    // Utility class
+  }
+
+  /**
    * Search an item with linearSearch algorithm.
    *
    * @param arr array to search
@@ -284,6 +340,13 @@ public class LinearSearchSnippet {
 
 ```java
 public class LuhnModnSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LuhnModnSnippet() {
+    // Utility class
+  }
 
   private static final String CODE_POINTS = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
@@ -375,6 +438,13 @@ public class LuhnModnSnippet {
 
 ```java
 public class MergeSortSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private MergeSortSnippet() {
+    // Utility class
+  }
   /**
    * Sort an array with qmergesort algorithm.
    *
@@ -432,6 +502,13 @@ public class MergeSortSnippet {
 public class QuickSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private QuickSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with quicksort algorithm.
    *
    * @param arr   array to sort
@@ -474,6 +551,13 @@ public class QuickSortSnippet {
 public class SelectionSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private SelectionSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with selectionSort algorithm.
    *
    * @param arr array to sort
@@ -502,6 +586,14 @@ public class SelectionSortSnippet {
 
 ```java
 public class SieveOfEratosthenesSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private SieveOfEratosthenesSnippet() {
+    // Utility class
+  }
+
   /**
    * Search an item with binarySearch algorithm.
    *
@@ -515,7 +607,7 @@ public class SieveOfEratosthenesSnippet {
     }
 
     for (int i = 2; i * i <= n; i++) {
-      if (isPrime[i] == true) {
+      if (isPrime[i]) {
         for (int j = i * i; j <= n; j += i) {
           isPrime[j] = false;
         }
@@ -531,6 +623,13 @@ public class SieveOfEratosthenesSnippet {
 
 ```java
 public class VerhoeffSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private VerhoeffSnippet() {
+    // Utility class
+  }
 
     private static final int[][] d = {
             {0, 1, 2, 3, 4, 5, 6, 7, 8, 9},
@@ -606,6 +705,13 @@ public class VerhoeffSnippet {
 public class AllEqualSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private AllEqualSnippet() {
+    // Utility class
+  }
+
+  /**
    * Returns true if all elements in array are equal.
    *
    * @param arr the array to check (not null)
@@ -622,6 +728,13 @@ public class AllEqualSnippet {
 
 ```java
 public class ArrayConcatSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArrayConcatSnippet() {
+    // Utility class
+  }
 
   /**
    * Generic 2 array concatenation Credits: Joachim Sauer https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
@@ -645,6 +758,13 @@ public class ArrayConcatSnippet {
 public class ArrayMeanSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArrayMeanSnippet() {
+    // Utility class
+  }
+
+  /**
    * Returns the mean of the integers in the array.
    *
    * @param arr the array of integers (not null)
@@ -660,6 +780,13 @@ public class ArrayMeanSnippet {
 
 ```java
 public class ArrayMedianSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArrayMedianSnippet() {
+    // Utility class
+  }
 
   /**
    * Returns the median of the array.
@@ -679,6 +806,13 @@ public class ArrayMedianSnippet {
 
 ```java
 public class ArrayModeInPlaceSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArrayModeInPlaceSnippet() {
+    // Utility class
+  }
 
   /**
   * Returns the mode of the array.
@@ -739,13 +873,11 @@ public class ArrayModeSnippet {
             frequencyMap.put(num, frequencyMap.getOrDefault(num, 0) + 1);
             maxCount = Math.max(maxCount, frequencyMap.get(num));
         }
-        List<Integer> modes = new ArrayList<>();
-        for (Map.Entry<Integer, Integer> entry : frequencyMap.entrySet()) {
-            if (entry.getValue() == maxCount) {
-                modes.add(entry.getKey());
-            }
-        }
-        return modes;
+        final var maxFrequency = maxCount;
+        return frequencyMap.entrySet().stream()
+                .filter(entry -> entry.getValue() == maxFrequency)
+                .map(Map.Entry::getKey)
+                .toList();
     }
 }
 ```
@@ -754,6 +886,13 @@ public class ArrayModeSnippet {
 
 ```java
 public class ArraySumSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArraySumSnippet() {
+    // Utility class
+  }
 
   /**
    * Returns sum of the integers in the array.
@@ -773,6 +912,13 @@ public class ArraySumSnippet {
 public class FindMaxSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private FindMaxSnippet() {
+    // Utility class
+  }
+
+  /**
    * Returns the maximum integer from the array using reduction.
    *
    * @param arr the array of integers (not null)
@@ -790,6 +936,13 @@ public class FindMaxSnippet {
 public class FindMinSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private FindMinSnippet() {
+    // Utility class
+  }
+
+  /**
     * Returns the minimum integer from the array using reduction.
     *
     * @param arr the array of integers (not null)
@@ -805,6 +958,13 @@ public class FindMinSnippet {
 
 ```java
 public class MultiArrayConcatenationSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private MultiArrayConcatenationSnippet() {
+    // Utility class
+  }
 
   /**
    * Generic N array concatenation Credits: Joachim Sauer https://stackoverflow.com/questions/80476/how-can-i-concatenate-two-arrays-in-java
@@ -834,6 +994,13 @@ public class MultiArrayConcatenationSnippet {
 
 ```java
 public class ReverseArraySnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReverseArraySnippet() {
+    // Utility class
+  }
 
   /**
    * The function then reverses the elements of the array between the starting and ending
@@ -876,6 +1043,13 @@ public class ReverseArraySnippet {
 public class CreatingObjectSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CreatingObjectSnippet() {
+    // Utility class
+  }
+
+  /**
    * Create object using reflection.
    *
    * @param cls fully qualified name of class includes the package name as String
@@ -909,6 +1083,13 @@ public class CreatingObjectSnippet {
 public class GetAllFieldNamesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetAllFieldNamesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Print all declared field names of the class or the interface the class extends.
    *
    * @param clazz Tested class
@@ -922,7 +1103,7 @@ public class GetAllFieldNamesSnippet {
           Arrays.stream(currentClazz.getDeclaredFields())
               .filter(field -> !field.isSynthetic())
               .map(Field::getName)
-              .collect(Collectors.toList()));
+              .toList());
       currentClazz = currentClazz.getSuperclass();
     }
     return fields;
@@ -936,6 +1117,13 @@ public class GetAllFieldNamesSnippet {
 public class GetAllMethodsSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetAllMethodsSnippet() {
+    // Utility class
+  }
+
+  /**
    * Print all declared methods of the class.
    *
    * @param cls Tested class
@@ -944,7 +1132,7 @@ public class GetAllMethodsSnippet {
   public static List<String> getAllMethods(final Class<?> cls) {
     return Arrays.stream(cls.getDeclaredMethods())
         .map(Method::getName)
-        .collect(Collectors.toList());
+        .toList();
   }
 }
 ```
@@ -953,6 +1141,13 @@ public class GetAllMethodsSnippet {
 
 ```java
 public class SafeCastSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private SafeCastSnippet() {
+    // Utility class
+  }
 
   /**
    * Safely casts an object to the specified type.
@@ -975,6 +1170,13 @@ public class SafeCastSnippet {
 public class GetAllPublicFieldNamesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetAllPublicFieldNamesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Print all declared public field names of the class or the interface the class extends.
    *
    * @param clazz Tested class
@@ -983,7 +1185,7 @@ public class GetAllPublicFieldNamesSnippet {
   public static List<String> getAllPublicFieldNames(final Class<?> clazz) {
     return Arrays.stream(clazz.getFields())
         .map(Field::getName)
-        .collect(Collectors.toList());
+        .toList();
   }
 }
 ```
@@ -996,21 +1198,12 @@ public class GetAllPublicFieldNamesSnippet {
 public class AddDaysToDateSnippet {
 
   /**
-   * Add days to given date.
-   *
-   * @param date given date
-   * @param noOfDays number of days to add
-   * @return modified date
+   * Private constructor to prevent instantiation.
    */
-  public static Date addDaysToDate(Date date, int noOfDays) {
-    if (date != null) {
-      Calendar cal = Calendar.getInstance();
-      cal.setTime(date);
-      cal.add(Calendar.DAY_OF_MONTH, noOfDays);
-      return cal.getTime();
-    }
-    return null;
+  private AddDaysToDateSnippet() {
+    // Utility class
   }
+
 
   /**
    * Add days to local date.
@@ -1029,6 +1222,13 @@ public class AddDaysToDateSnippet {
 
 ```java
 public class DateDifferenceSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private DateDifferenceSnippet() {
+    // Utility class
+  }
 
   /**
   * This function calculates the number of years between two LocalDate objects.
@@ -1079,6 +1279,13 @@ public class DateDifferenceSnippet {
 public class Base64DecodeSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private Base64DecodeSnippet() {
+    // Utility class
+  }
+
+  /**
    * Decodes a Base64 encoded string to the actual representation.
    *
    * @param input base64 encoded string
@@ -1094,6 +1301,14 @@ public class Base64DecodeSnippet {
 
 ```java
 public class Base64EncodeSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private Base64EncodeSnippet() {
+    // Utility class
+  }
+
   /**
    * Encodes the input string to a Base64 encoded string.
    *
@@ -1112,6 +1327,13 @@ public class Base64EncodeSnippet {
 
 ```java
 public class ListAllFilesSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ListAllFilesSnippet() {
+    // Utility class
+  }
 
   /**
    * Recursively list all the files in directory.
@@ -1142,6 +1364,13 @@ public class ListAllFilesSnippet {
 public class ListDirectoriesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ListDirectoriesSnippet() {
+    // Utility class
+  }
+
+  /**
    * List directories.
    *
    * @param path the path where to look
@@ -1157,6 +1386,13 @@ public class ListDirectoriesSnippet {
 
 ```java
 public class ListFilesInDirectorySnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ListFilesInDirectorySnippet() {
+    // Utility class
+  }
 
   /**
    * List files in directory.
@@ -1176,6 +1412,13 @@ public class ListFilesInDirectorySnippet {
 public class ReadLinesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReadLinesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Read file as list of strings.
    *
    * @param filename the filename to read from
@@ -1192,6 +1435,13 @@ public class ReadLinesSnippet {
 
 ```java
 public class ZipDirectorySnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ZipDirectorySnippet() {
+    // Utility class
+  }
 
   /**
    * Zip a complete directory.
@@ -1254,6 +1504,13 @@ public class ZipDirectorySnippet {
 public class ZipFileSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ZipFileSnippet() {
+    // Utility class
+  }
+
+  /**
    * Zip single file.
    *
    * @param srcFilename the filename of the source file
@@ -1283,6 +1540,13 @@ public class ZipFileSnippet {
 
 ```java
 public class ZipFilesSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ZipFilesSnippet() {
+    // Utility class
+  }
 
   /**
    * Zip multiples files.
@@ -1321,6 +1585,13 @@ public class ZipFilesSnippet {
 public class InputStreamToStringSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private InputStreamToStringSnippet() {
+    // Utility class
+  }
+
+  /**
    * Convert InputStream to String.
    *
    * @param inputStream InputStream to convert
@@ -1339,6 +1610,13 @@ public class InputStreamToStringSnippet {
 public class ReadFileSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReadFileSnippet() {
+    // Utility class
+  }
+
+  /**
    * Read file using stream and return list of string lines.
    *
    * @param fileName file to read
@@ -1346,7 +1624,7 @@ public class ReadFileSnippet {
    */
   public static List<String> readFile(String fileName) throws FileNotFoundException {
     try (Stream<String> stream = new BufferedReader(new FileReader(fileName)).lines()) {
-      return stream.collect(Collectors.toList());
+      return stream.toList();
     }
   }
 }
@@ -1358,6 +1636,13 @@ public class ReadFileSnippet {
 
 ```java
 public class GetEnvOrDefaultSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private GetEnvOrDefaultSnippet() {
+    // Utility class
+  }
 
   /**
    * Read an environment variable or return a default value when it is missing.
@@ -1429,6 +1714,13 @@ public class DiceThrow {
 ```java
 public class EloRatingSnippet {
 
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private EloRatingSnippet() {
+    // Utility class
+  }
+
   static final int BASE = 400; //Two types are popular - 400 and 480. We will choose 400 here
   static final int RATING_ADJUSTMENT_FACTOR = 32; //32 is the standard for Beginner Games
 
@@ -1447,9 +1739,8 @@ public class EloRatingSnippet {
     double logisticDiff = Math.pow(10, ratingDiff);
     double firstPlayerExpectedScore = 1.0 / (1 + logisticDiff);
     double firstPlayerActualScore = result;
-    double newRating = firstPlayerRating + RATING_ADJUSTMENT_FACTOR * (firstPlayerActualScore
-                       - firstPlayerExpectedScore);
-    return newRating;
+    return firstPlayerRating
+        + RATING_ADJUSTMENT_FACTOR * (firstPlayerActualScore - firstPlayerExpectedScore);
   }
 }
 ```
@@ -1458,6 +1749,13 @@ public class EloRatingSnippet {
 
 ```java
 public class EvenOdd {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private EvenOdd() {
+    // Utility class
+  }
 
   /**
    * Returns string denoting number is odd or even.
@@ -1479,6 +1777,13 @@ public class EvenOdd {
 
 ```java
 public class FactorialSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private FactorialSnippet() {
+    // Utility class
+  }
 
   /**
    * Factorial. Works only for small numbers
@@ -1514,6 +1819,13 @@ public class FactorialSnippet {
 
 ```java
 public class FibonacciSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private FibonacciSnippet() {
+    // Utility class
+  }
 
   /**
    * Recursive Fibonacci series. Works only for small n and is spectacularly inefficient
@@ -1571,6 +1883,13 @@ public class FibonacciSnippet {
 public class GreatestCommonDivisorSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private GreatestCommonDivisorSnippet() {
+    // Utility class
+  }
+
+  /**
    * Greatest common divisor calculation.
    *
    * @param a one of the numbers whose gcd is to be computed
@@ -1590,6 +1909,13 @@ public class GreatestCommonDivisorSnippet {
 
 ```java
 public class HaversineFormulaSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private HaversineFormulaSnippet() {
+    // Utility class
+  }
 
   // Radius of sphere on which the points are, in this case Earth.
   private static final double SPHERE_RADIUS_IN_KM = 6372.8;
@@ -1641,6 +1967,14 @@ public class HaversineFormulaSnippet {
 
 ```java
 public class LeastCommonMultipleSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LeastCommonMultipleSnippet() {
+    // Utility class
+  }
+
   /**
    * Least common multiple  calculation.
    *
@@ -1666,6 +2000,13 @@ public class LeastCommonMultipleSnippet {
 
 ```java
 public class LuhnSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LuhnSnippet() {
+    // Utility class
+  }
 
   /**
    * Calculates checksum for a given number with Luhn's algorithm. Works only on non-negative
@@ -1697,9 +2038,8 @@ public class LuhnSnippet {
 
       isOddPosition = !isOddPosition;
     }
-    final var checksumDigit = (10 - (sum % 10)) % 10;
     // Outermost modulus handles edge case `num = 0`.
-    return checksumDigit;
+    return (10 - (sum % 10)) % 10;
   }
 }
 ```
@@ -1708,6 +2048,13 @@ public class LuhnSnippet {
 
 ```java
 public class NaturalNumberBinaryConversionSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private NaturalNumberBinaryConversionSnippet() {
+    // Utility class
+  }
 
   /**
    * Convert natural number to binary string. Only supports positive integers.Throws exception
@@ -1756,6 +2103,13 @@ public class NaturalNumberBinaryConversionSnippet {
 public class PerformLotterySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private PerformLotterySnippet() {
+    // Utility class
+  }
+
+  /**
    * Generate random lottery numbers.
    *
    * @param numNumbers    how many performLottery numbers are available (e.g. 49)
@@ -1777,6 +2131,13 @@ public class PerformLotterySnippet {
 
 ```java
 public class PrimeNumberSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private PrimeNumberSnippet() {
+    // Utility class
+  }
 
   /**
    * Checks if given number is a prime number. Prime number is a number that is greater than 1 and
@@ -1838,7 +2199,7 @@ public class RandomNumber {
                 + random.nextInt(end.intValue() - start.intValue() + 1);
       } else if (start instanceof Long && end instanceof Long) {
         return start.longValue()
-                + (long) (random.nextDouble() * end.longValue() - start.longValue() + 1);
+                + random.nextLong(end.longValue() - start.longValue() + 1);
       } else if (start instanceof Float && end instanceof Float) {
         return start.floatValue()
                 + random.nextFloat() * (end.floatValue() - start.floatValue());
@@ -1857,6 +2218,13 @@ public class RandomNumber {
 
 ```java
 public class SquareRoot {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private SquareRoot() {
+    // Utility class
+  }
 
   /**
    * Returns square root of a number.
@@ -1901,6 +2269,13 @@ public class SquareRoot {
 public class CaptureScreenSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CaptureScreenSnippet() {
+    // Utility class
+  }
+
+  /**
    * Capture screenshot and save it to PNG file. Credits: https://viralpatel.net/blogs/how-to-take-screen-shots-in-java-taking-screenshots-java/
    *
    * @param filename the name of the file
@@ -1925,13 +2300,21 @@ public class CaptureScreenSnippet {
 public class HttpGetSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private HttpGetSnippet() {
+    // Utility class
+  }
+
+  /**
    * Performs HTTP GET request.
    *
    * @param uri the URI of the connection
    * @return response object
-   * @throws Exception i/o error, interruption error, etc
+   * @throws IOException if an I/O error occurs
+   * @throws InterruptedException if the operation is interrupted
    */
-  public static HttpResponse<String> httpGet(String uri) throws Exception {
+  public static HttpResponse<String> httpGet(String uri) throws IOException, InterruptedException {
     try (var client = HttpClient.newHttpClient()) { // HttpClient must be closed after use
       var request = HttpRequest.newBuilder()
               .uri(URI.create(uri))
@@ -1948,15 +2331,22 @@ public class HttpGetSnippet {
 public class HttpPostSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private HttpPostSnippet() {
+    // Utility class
+  }
+
+  /**
    * Performs HTTP POST request. Credits https://stackoverflow.com/questions/3324717/sending-http-post-request-in-java
    *
    * @param address   the URL of the connection in String format, like "http://www.google.com"
-   * @param arguments the body of the POST request, as a HashMap
+   * @param arguments the body of the POST request, as a Map
    * @return response object
    * @throws IOException          if an I/O error occurs
    * @throws InterruptedException if the operation is interrupted
    */
-  public static HttpResponse<String> httpPost(String address, HashMap<String, String> arguments)
+  public static HttpResponse<String> httpPost(String address, Map<String, String> arguments)
           throws IOException, InterruptedException {
     var sj = new StringJoiner("&");
     for (var entry : arguments.entrySet()) {
@@ -1984,6 +2374,13 @@ public class HttpPostSnippet {
 
 ```java
 public class AnagramSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private AnagramSnippet() {
+    // Utility class
+  }
 
   /**
    * Checks if two words are anagrams (contains same characters with same frequency in any order).
@@ -2018,6 +2415,13 @@ public class AnagramSnippet {
 public class CommonLettersSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private CommonLettersSnippet() {
+    // Utility class
+  }
+
+  /**
    * Find Common Characters inside given two strings.
    *
    * @param firstStr  first string
@@ -2025,12 +2429,11 @@ public class CommonLettersSnippet {
    * @return Common Characters.
    */
   public static String getCommonLetters(String firstStr, String secondStr) {
-    Set<String> commonLetters = new HashSet<>();
-    for (Character currentCharacter : firstStr.toCharArray()) {
-      if (isCommonLetter(secondStr, currentCharacter)) {
-        commonLetters.add(currentCharacter.toString());
-      }
-    }
+    Set<String> commonLetters = firstStr.chars()
+        .mapToObj(character -> (char) character)
+        .filter(character -> isCommonLetter(secondStr, character))
+        .map(String::valueOf)
+        .collect(Collectors.toCollection(HashSet::new));
     return String.join(" ", commonLetters);
   }
 
@@ -2044,6 +2447,13 @@ public class CommonLettersSnippet {
 
 ```java
 public class CompareVersionSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private CompareVersionSnippet() {
+    // Utility class
+  }
 
   /**
    * Compares two version strings.
@@ -2117,6 +2527,13 @@ public class CompareVersionSnippet {
 public class DuplicateCharacterSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private DuplicateCharacterSnippet() {
+    // Utility class
+  }
+
+  /**
    * Remove Duplicate Characters from a string.
    *
    * @param str The string to be processed
@@ -2124,11 +2541,9 @@ public class DuplicateCharacterSnippet {
    */
 
   public static String removeDuplicateCharacters(String str) {
-    char[] charsOfStr = str.toCharArray();
-    Set<String> uniqueCharacters = new HashSet<>();
-    for (char character : charsOfStr) {
-      uniqueCharacters.add(String.valueOf(character));
-    }
+    Set<String> uniqueCharacters = str.chars()
+        .mapToObj(character -> String.valueOf((char) character))
+        .collect(Collectors.toCollection(HashSet::new));
     return String.join("", uniqueCharacters);
   }
 }
@@ -2138,6 +2553,13 @@ public class DuplicateCharacterSnippet {
 
 ```java
 public class LevenshteinDistanceSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LevenshteinDistanceSnippet() {
+    // Utility class
+  }
 
   /**
    * Find the Levenshtein distance between two words. https://en.wikipedia.org/wiki/Levenshtein_distance
@@ -2172,6 +2594,14 @@ public class LevenshteinDistanceSnippet {
 
 ```java
 public class LindenmayerSystemSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LindenmayerSystemSnippet() {
+    // Utility class
+  }
+
   /**
    * Generates an L-system string based on axiom, production rules, and a number of iterations.
    *
@@ -2212,6 +2642,13 @@ public class LindenmayerSystemSnippet {
 public class MaxCharacterCountSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private MaxCharacterCountSnippet() {
+    // Utility class
+  }
+
+  /**
    * The maximum count of times a specific character appears in a string.
    *
    * @param str َA specific string
@@ -2241,6 +2678,13 @@ public class MaxCharacterCountSnippet {
 public class PalindromCheckSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private PalindromCheckSnippet() {
+    // Utility class
+  }
+
+  /**
    * Checks if given string is palindrome (same forward and backward). Skips non-letter characters
    * Credits: https://github.com/kousen/java_8_recipes
    *
@@ -2248,17 +2692,21 @@ public class PalindromCheckSnippet {
    * @return true if palindrome
    */
   public static boolean isPalindrome(String s) {
-    for (int i = 0, j = s.length() - 1; i < j; i++, j--) {
-      while (i < j && !Character.isLetter(s.charAt(i))) {
-        i++;
+    var start = 0;
+    var end = s.length() - 1;
+    while (start < end) {
+      while (start < end && !Character.isLetter(s.charAt(start))) {
+        start++;
       }
-      while (i < j && !Character.isLetter(s.charAt(j))) {
-        j--;
+      while (start < end && !Character.isLetter(s.charAt(end))) {
+        end--;
       }
 
-      if (Character.toLowerCase(s.charAt(i)) != Character.toLowerCase(s.charAt(j))) {
+      if (Character.toLowerCase(s.charAt(start)) != Character.toLowerCase(s.charAt(end))) {
         return false;
       }
+      start++;
+      end--;
     }
 
     return true;
@@ -2270,6 +2718,13 @@ public class PalindromCheckSnippet {
 
 ```java
 public class ReverseStringSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReverseStringSnippet() {
+    // Utility class
+  }
 
   /**
    * Reverse string.
@@ -2289,16 +2744,22 @@ public class ReverseStringSnippet {
 public class StringToDateSnippet {
 
   /**
-   * Convert string to date.
+   * Private constructor to prevent instantiation.
+   */
+  private StringToDateSnippet() {
+    // Utility class
+  }
+
+  /**
+   * Convert string to date using java.time.
    *
    * @param date   the date string
    * @param format expected date format
-   * @return Date
-   * @throws ParseException in case of an unparseable date string
+   * @return the parsed date
+   * @throws DateTimeParseException in case of an unparseable date string
    */
-  public static Date stringToDate(String date, String format) throws ParseException {
-    var simpleDateFormat = new SimpleDateFormat(format);
-    return simpleDateFormat.parse(date);
+  public static LocalDate stringToDate(String date, String format) {
+    return LocalDate.parse(date, DateTimeFormatter.ofPattern(format, Locale.ENGLISH));
   }
 }
 ```
@@ -2308,6 +2769,13 @@ public class StringToDateSnippet {
 ```java
 public class KMPSubstringSearchSnippet {
 
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private KMPSubstringSearchSnippet() {
+    // Utility class
+  }
+
     /**
      * Implements the Knuth-Morris-Pratt (KMP) algorithm to find the index of the first occurrence of a substring in a given text.
      *
@@ -2316,7 +2784,7 @@ public class KMPSubstringSearchSnippet {
      * @return The index of the first occurrence of the pattern in the text, or -1 if the pattern is not found.
      */
     public static int kmpSearch(String text, String pattern) {
-        if (pattern == null || pattern.length() == 0) {
+        if (pattern == null || pattern.isEmpty()) {
             return 0; // Trivial case: empty pattern
         }
 
@@ -2379,6 +2847,13 @@ public class KMPSubstringSearchSnippet {
 ```java
 public class FormatBytesSnippet {
 
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private FormatBytesSnippet() {
+    // Utility class
+  }
+
     /**
      * Convert bytes into Human readable form.
      *
@@ -2418,6 +2893,13 @@ public class FormatBytesSnippet {
 public class ThreadSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ThreadSnippet() {
+    // Utility class
+  }
+
+  /**
    * Creates and returns a new thread with the task assigned to it (task will be performed parallel to the main thread).
    *
    * @param task the task to be executed by this thread
@@ -2431,6 +2913,13 @@ public class ThreadSnippet {
 
 ```java
 public class ThreadPool {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private ThreadPool() {
+    // Utility class
+  }
 
   /**
    * <p>Creates pool of threads. Where the pool is the size of the number of processors

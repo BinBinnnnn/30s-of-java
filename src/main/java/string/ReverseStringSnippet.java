@@ -30,6 +30,13 @@ package string;
 public class ReverseStringSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReverseStringSnippet() {
+    // Utility class
+  }
+
+  /**
    * Reverse string.
    *
    * @param s the string to reverse

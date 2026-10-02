@@ -30,6 +30,13 @@ package algorithm;
 public class InsertionSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private InsertionSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with insertionSort algorithm.
    *
    * @param arr array to sort

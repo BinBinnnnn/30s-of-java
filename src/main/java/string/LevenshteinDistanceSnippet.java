@@ -30,6 +30,13 @@ package string;
 public class LevenshteinDistanceSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private LevenshteinDistanceSnippet() {
+    // Utility class
+  }
+
+  /**
    * Find the Levenshtein distance between two words. https://en.wikipedia.org/wiki/Levenshtein_distance
    *
    * @param word1 first word

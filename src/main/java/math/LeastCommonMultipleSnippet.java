@@ -28,6 +28,14 @@ package math;
  * LeastCommonMultipleSnippet.
  */
 public class LeastCommonMultipleSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private LeastCommonMultipleSnippet() {
+    // Utility class
+  }
+
   /**
    * Least common multiple  calculation.
    *

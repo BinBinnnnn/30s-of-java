@@ -30,6 +30,13 @@ package algorithm;
 public class BubbleSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private BubbleSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with bubbleSort algorithm.
    *
    * @param arr array to sort

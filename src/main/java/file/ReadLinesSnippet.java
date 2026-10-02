@@ -35,6 +35,13 @@ import java.util.List;
 public class ReadLinesSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ReadLinesSnippet() {
+    // Utility class
+  }
+
+  /**
    * Read file as list of strings.
    *
    * @param filename the filename to read from

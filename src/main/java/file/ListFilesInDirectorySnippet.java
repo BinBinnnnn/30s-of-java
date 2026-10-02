@@ -32,6 +32,13 @@ import java.io.File;
 public class ListFilesInDirectorySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ListFilesInDirectorySnippet() {
+    // Utility class
+  }
+
+  /**
    * List files in directory.
    *
    * @param folder the path where to look

@@ -30,6 +30,13 @@ package math;
 public class GreatestCommonDivisorSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private GreatestCommonDivisorSnippet() {
+    // Utility class
+  }
+
+  /**
    * Greatest common divisor calculation.
    *
    * @param a one of the numbers whose gcd is to be computed

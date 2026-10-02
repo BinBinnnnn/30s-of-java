@@ -30,6 +30,13 @@ package algorithm;
 public class SelectionSortSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private SelectionSortSnippet() {
+    // Utility class
+  }
+
+  /**
    * Sort an array with selectionSort algorithm.
    *
    * @param arr array to sort

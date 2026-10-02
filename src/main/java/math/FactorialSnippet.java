@@ -30,6 +30,13 @@ package math;
 public class FactorialSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private FactorialSnippet() {
+    // Utility class
+  }
+
+  /**
    * Factorial. Works only for small numbers
    *
    * @param number for which factorial is to be calculated for

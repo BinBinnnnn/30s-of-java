@@ -32,6 +32,13 @@ import java.util.Arrays;
 public class ArraySumSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArraySumSnippet() {
+    // Utility class
+  }
+
+  /**
    * Returns sum of the integers in the array.
    *
    * @param arr the array of integers (not null)

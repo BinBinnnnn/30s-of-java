@@ -30,6 +30,13 @@ package math;
 public class LuhnSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private LuhnSnippet() {
+    // Utility class
+  }
+
+  /**
    * Calculates checksum for a given number with Luhn's algorithm. Works only on non-negative
    * integers not greater than {@link Long#MAX_VALUE} i.e., all numbers with a maximum of 18
    * digits, plus 19-digit-long numbers start with 1..8 (also some with 9, too). For
@@ -59,8 +66,7 @@ public class LuhnSnippet {
 
       isOddPosition = !isOddPosition;
     }
-    final var checksumDigit = (10 - (sum % 10)) % 10;
     // Outermost modulus handles edge case `num = 0`.
-    return checksumDigit;
+    return (10 - (sum % 10)) % 10;
   }
 }

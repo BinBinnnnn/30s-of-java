@@ -30,6 +30,13 @@ package math;
 public class EvenOdd {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private EvenOdd() {
+    // Utility class
+  }
+
+  /**
    * Returns string denoting number is odd or even.
    *
    * @param num To check whether its even or odd

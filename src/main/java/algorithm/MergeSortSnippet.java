@@ -27,7 +27,14 @@ package algorithm;
 /**
  * MergeSortSnippet.
  */
-public class MergeSortSnippet {  
+public class MergeSortSnippet {
+
+  /**
+   * Private constructor to prevent instantiation.
+   */
+  private MergeSortSnippet() {
+    // Utility class
+  }  
   /**
      * Sort an array with qmergesort algorithm.
      *

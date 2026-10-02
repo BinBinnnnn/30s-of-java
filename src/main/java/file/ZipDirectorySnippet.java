@@ -37,6 +37,13 @@ import java.util.zip.ZipOutputStream;
 public class ZipDirectorySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ZipDirectorySnippet() {
+    // Utility class
+  }
+
+  /**
    * Zip a complete directory.
    *
    * @param srcDirectoryName The path to the directory to be zipped

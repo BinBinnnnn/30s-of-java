@@ -50,21 +50,21 @@ class ZipDirectorySnippetTest {
     try {
       ZipDirectorySnippet.zipDirectory(src, dst);
       assertTrue(Files.exists(Paths.get(dst)));
-      var zipFile = new ZipFile(Paths.get(dst).toFile());
       var regularFiles = 0;
       var directories = 0;
-      var zipEntries = zipFile.entries();
-      while (zipEntries.hasMoreElements()) {
-        if (zipEntries.nextElement().isDirectory()) {
-          directories++;
-        } else {
-          regularFiles++;
+      try (var zipFile = new ZipFile(Paths.get(dst).toFile())) {
+        var zipEntries = zipFile.entries();
+        while (zipEntries.hasMoreElements()) {
+          if (zipEntries.nextElement().isDirectory()) {
+            directories++;
+          } else {
+            regularFiles++;
+          }
         }
+        assertEquals(2, zipFile.size());
+        assertEquals(0, directories); // Directory entries are intentionally not written
+        assertEquals(2, regularFiles); // Two simple files
       }
-      assertEquals(2, zipFile.size());
-      assertEquals(0, directories); // Directory entries are intentionally not written
-      assertEquals(2, regularFiles); // Two simple files
-      zipFile.close();
     } finally {
       Files.deleteIfExists(new File(dst).toPath());
     }

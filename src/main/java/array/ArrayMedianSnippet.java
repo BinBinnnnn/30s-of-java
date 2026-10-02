@@ -32,6 +32,13 @@ import java.util.Arrays;
 public class ArrayMedianSnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private ArrayMedianSnippet() {
+    // Utility class
+  }
+
+  /**
    * Returns the median of the array.
    *
    * @param arr the array of integers (not null)

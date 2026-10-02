@@ -30,6 +30,13 @@ package algorithm;
 public class BinarySearchIn2dArraySnippet {
 
   /**
+   * Private constructor to prevent instantiation.
+   */
+  private BinarySearchIn2dArraySnippet() {
+    // Utility class
+  }
+
+  /**
   * Search an item with binarySearch algorithm.
   *
   * @param matrix should be sorted
