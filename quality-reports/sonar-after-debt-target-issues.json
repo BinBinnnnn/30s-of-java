@@ -1,0 +1,182 @@
+﻿[
+    {
+        "key":  "AaD79Zjaqh_7oQBG0_wC",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllFieldNamesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  60,
+        "hash":  "6fd61d7b4346e7440f3905d38be78804",
+        "textRange":  {
+                          "startLine":  60,
+                          "endLine":  60,
+                          "startOffset":  23,
+                          "endOffset":  42
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2026-10-02T09:30:56+0000",
+        "updateDate":  "2026-10-02T09:30:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "6531f6b6-6558-44d7-8324-204be2c1aa22",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD79ZjCqh_7oQBG0_wB",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllMethodsSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  54,
+        "hash":  "7fb4ca3bdafe94c1165e7816973e258a",
+        "textRange":  {
+                          "startLine":  54,
+                          "endLine":  54,
+                          "startOffset":  17,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2026-10-02T09:30:56+0000",
+        "updateDate":  "2026-10-02T09:30:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "6531f6b6-6558-44d7-8324-204be2c1aa22",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD79Zjnqh_7oQBG0_wD",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllPublicFieldNamesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  54,
+        "hash":  "7fb4ca3bdafe94c1165e7816973e258a",
+        "textRange":  {
+                          "startLine":  54,
+                          "endLine":  54,
+                          "startOffset":  17,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2026-10-02T09:30:56+0000",
+        "updateDate":  "2026-10-02T09:30:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "6531f6b6-6558-44d7-8324-204be2c1aa22",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD79Zmxqh_7oQBG0_wE",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/io/ReadFileSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  54,
+        "hash":  "909def4ed295c92b8d34024fa5a5596d",
+        "textRange":  {
+                          "startLine":  54,
+                          "endLine":  54,
+                          "startOffset":  28,
+                          "endOffset":  47
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2026-10-02T09:30:56+0000",
+        "updateDate":  "2026-10-02T09:30:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "6531f6b6-6558-44d7-8324-204be2c1aa22",
+        "lastChangeSource":  "ANALYSIS"
+    }
+]

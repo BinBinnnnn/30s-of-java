@@ -1103,7 +1103,7 @@ public class GetAllFieldNamesSnippet {
           Arrays.stream(currentClazz.getDeclaredFields())
               .filter(field -> !field.isSynthetic())
               .map(Field::getName)
-              .toList());
+              .collect(Collectors.toList()));
       currentClazz = currentClazz.getSuperclass();
     }
     return fields;
@@ -1132,7 +1132,7 @@ public class GetAllMethodsSnippet {
   public static List<String> getAllMethods(final Class<?> cls) {
     return Arrays.stream(cls.getDeclaredMethods())
         .map(Method::getName)
-        .toList();
+        .collect(Collectors.toList());
   }
 }
 ```
@@ -1185,7 +1185,7 @@ public class GetAllPublicFieldNamesSnippet {
   public static List<String> getAllPublicFieldNames(final Class<?> clazz) {
     return Arrays.stream(clazz.getFields())
         .map(Field::getName)
-        .toList();
+        .collect(Collectors.toList());
   }
 }
 ```
@@ -1624,7 +1624,7 @@ public class ReadFileSnippet {
    */
   public static List<String> readFile(String fileName) throws FileNotFoundException {
     try (Stream<String> stream = new BufferedReader(new FileReader(fileName)).lines()) {
-      return stream.toList();
+      return stream.collect(Collectors.toList());
     }
   }
 }

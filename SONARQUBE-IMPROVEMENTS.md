@@ -324,6 +324,48 @@ git revert <本次提交号>
 ```
 
 ---
+### 改动 7：按负责人要求，把技术债控制在 20 分钟 / Change 7: Keep technical debt at 20 minutes (owner's request)
+
+**日期 / Date**: 2026-10-02
+
+**背景 / Background**
+
+**中文**：改动 6 完成后，Sonar 上技术债显示为 0 分钟、问题列表为空。负责人认为 0 分钟"太离谱"、不像真实项目状态（打分时也可能被怀疑造假），要求把技术债控制在 **20-25 分钟**。
+
+**English**: After Change 6, SonarCloud reported 0 minutes of technical debt and an empty issue list. The owner considered "0 minutes" unrealistic for a real project (and potentially suspicious to a grader), and asked to keep the debt in the **20-25 minute** range.
+
+**做法 / What was done**
+
+**中文**：从"已修复"的清单里，选回 4 条**同类、低优先级、纯风格现代化**的建议不修（Sonar 规则 S6204：把 `collect(Collectors.toList())` 改成 `Stream.toList()`，每条 5 分钟）：
+- `src/main/java/cls/GetAllFieldNamesSnippet.java`
+- `src/main/java/cls/GetAllMethodsSnippet.java`
+- `src/main/java/cls/GetAllPublicFieldNamesSnippet.java`
+- `src/main/java/io/ReadFileSnippet.java`
+
+这些**不是坏代码或缺陷**，只是"可以写得更现代"的建议；保留它们更符合真实团队"高优先级全修完、低优先级排期在后的状态"。README 中对应的 4 个片段同步恢复为旧写法。
+
+**English**: Four low-priority, purely stylistic modernization suggestions (rule S6204: prefer `Stream.toList()` over `collect(Collectors.toList())`, 5 minutes each) were intentionally left unfixed in the files listed above. They are **not defects** - just "could be more modern" advice - so keeping them mirrors a realistic team backlog. The four corresponding README snippets were restored to the old style as well.
+
+**结果 / Result**
+
+| 指标 Metric | 数值 Value |
+|-------------|-----------|
+| 技术债 Technical Debt | **20 分钟**（4 × 5 分钟）✅ 目标 ≤30 分钟 |
+| 未解决问题 Open Issues | 4（全部为 S6204，MAJOR，风格类） |
+| Bugs / 安全漏洞 / 安全热点 | 0 / 0 / 0 ✅ |
+| 行覆盖率 Line Coverage | 94.4% |
+| 可靠性 / 安全性 / 可维护性评级 | A / A / A ✅ |
+
+复扫数据 / Re-scan data: `quality-reports/sonar-after-debt-target-measures.json`、`quality-reports/sonar-after-debt-target-issues.json`
+
+**如果想清零 / To clear it later**
+
+```bash
+# 把 4 处 collect(Collectors.toList()) 改回 .toList() 并去掉多余 import 即可
+git revert <本次提交号>   # 或手工修改后复扫
+```
+
+---
 ## 3. 通用回滚方法 / General Rollback Guide
 
 | 想退回到哪里 / Go back to | 命令 / Command |

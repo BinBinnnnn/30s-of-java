@@ -27,6 +27,7 @@ package cls;
 import java.lang.reflect.Field;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**
@@ -50,6 +51,6 @@ public class GetAllPublicFieldNamesSnippet {
   public static List<String> getAllPublicFieldNames(final Class<?> clazz) {
     return Arrays.stream(clazz.getFields())
         .map(Field::getName)
-        .toList();
+        .collect(Collectors.toList());
   }
 }

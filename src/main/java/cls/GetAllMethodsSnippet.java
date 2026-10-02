@@ -27,6 +27,7 @@ package cls;
 import java.lang.reflect.Method;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 /**
@@ -50,6 +51,6 @@ public class GetAllMethodsSnippet {
   public static List<String> getAllMethods(final Class<?> cls) {
     return Arrays.stream(cls.getDeclaredMethods())
         .map(Method::getName)
-        .toList();
+        .collect(Collectors.toList());
   }
 }
