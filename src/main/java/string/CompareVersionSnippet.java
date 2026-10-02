@@ -24,12 +24,12 @@
 
 package string;
 
+import java.util.Arrays;
+
 /**
  * CompareVersionSnippet.
  */
 public class CompareVersionSnippet {
-
-  private static final String EXTRACT_VERSION_REGEX = ".*?((?<!\\w)\\d+([.-]\\d+)*).*";
 
   /**
    * Compares two version strings.
@@ -57,6 +57,41 @@ public class CompareVersionSnippet {
   }
 
   private static String[] getVersionComponents(String version) {
-    return version.replaceAll(EXTRACT_VERSION_REGEX, "$1").split("\\.");
+    var start = firstVersionDigit(version);
+    if (start < 0) {
+      return new String[0];
+    }
+    var end = start;
+    while (end < version.length() && (Character.isDigit(version.charAt(end))
+        || version.charAt(end) == '.' || version.charAt(end) == '-')) {
+      end++;
+    }
+    return Arrays.stream(version.substring(start, end).split("[.-]"))
+        .filter(part -> !part.isEmpty())
+        .toArray(String[]::new);
+  }
+
+  /**
+   * Finds the first digit that starts a version-like sequence. Digits that continue a word,
+   * such as the "2" in "beta2", do not count.
+   *
+   * @param version the version string to inspect
+   * @return the index of the first version digit, or -1 when there is none
+   */
+  private static int firstVersionDigit(String version) {
+    for (var i = 0; i < version.length(); i++) {
+      if (Character.isDigit(version.charAt(i)) && !isWordCharacter(version, i - 1)) {
+        return i;
+      }
+    }
+    return -1;
+  }
+
+  private static boolean isWordCharacter(String version, int index) {
+    if (index < 0) {
+      return false;
+    }
+    var character = version.charAt(index);
+    return Character.isLetterOrDigit(character) || character == '_';
   }
 }

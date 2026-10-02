@@ -37,6 +37,7 @@ public class GetEnvOrDefaultSnippet {
    * @return environment variable value or default value
    */
   public static String getEnvOrDefault(String key, String defaultValue) {
-    return System.getenv().getOrDefault(key, defaultValue);
+    var value = System.getenv(key);
+    return value != null ? value : defaultValue;
   }
 }

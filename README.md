@@ -1224,14 +1224,9 @@ public class ZipDirectorySnippet {
       return;
     }
     if (fileToZip.isDirectory()) {
-      if (fileName.endsWith("/")) {
-        zipOut.putNextEntry(new ZipEntry(fileName)); // To be zipped next
-        zipOut.closeEntry();
-      } else {
-        // Add the "/" mark explicitly to preserve structure while unzipping action is performed
-        zipOut.putNextEntry(new ZipEntry(fileName + "/"));
-        zipOut.closeEntry();
-      }
+      // Note: directory entries are intentionally NOT written. Creating an archive entry and
+      // immediately closing it without writing content produces an empty (broken) entry.
+      // The folder structure is preserved by the entry names of the files inside.
       var children = fileToZip.listFiles();
       for (var childFile : children) { // Recursively apply function to all children
         zipFile(childFile, fileName + "/" + childFile.getName(), zipOut);
@@ -1372,7 +1367,8 @@ public class GetEnvOrDefaultSnippet {
    * @return environment variable value or default value
    */
   public static String getEnvOrDefault(String key, String defaultValue) {
-    return System.getenv().getOrDefault(key, defaultValue);
+    var value = System.getenv(key);
+    return value != null ? value : defaultValue;
   }
 }
 ```
@@ -1936,11 +1932,12 @@ public class HttpGetSnippet {
    * @throws Exception i/o error, interruption error, etc
    */
   public static HttpResponse<String> httpGet(String uri) throws Exception {
-    var client = HttpClient.newHttpClient();
-    var request = HttpRequest.newBuilder()
-            .uri(URI.create(uri))
-            .build();
-    return client.send(request, HttpResponse.BodyHandlers.ofString());
+    try (var client = HttpClient.newHttpClient()) { // HttpClient must be closed after use
+      var request = HttpRequest.newBuilder()
+              .uri(URI.create(uri))
+              .build();
+      return client.send(request, HttpResponse.BodyHandlers.ofString());
+    }
   }
 }
 ```
@@ -1974,7 +1971,9 @@ public class HttpPostSnippet {
             .POST(HttpRequest.BodyPublishers.ofByteArray(out))
             .build();
 
-    return HttpClient.newHttpClient().send(request, HttpResponse.BodyHandlers.ofString());
+    try (var client = HttpClient.newHttpClient()) { // HttpClient must be closed after use
+      return client.send(request, HttpResponse.BodyHandlers.ofString());
+    }
   }
 }
 ```
@@ -2046,8 +2045,6 @@ public class CommonLettersSnippet {
 ```java
 public class CompareVersionSnippet {
 
-  private static final String EXTRACT_VERSION_REGEX = ".*?((?<!\\w)\\d+([.-]\\d+)*).*";
-
   /**
    * Compares two version strings.
    * Credits: https://stackoverflow.com/a/6702000/6645088 and https://stackoverflow.com/a/44592696/6645088
@@ -2074,7 +2071,42 @@ public class CompareVersionSnippet {
   }
 
   private static String[] getVersionComponents(String version) {
-    return version.replaceAll(EXTRACT_VERSION_REGEX, "$1").split("\\.");
+    var start = firstVersionDigit(version);
+    if (start < 0) {
+      return new String[0];
+    }
+    var end = start;
+    while (end < version.length() && (Character.isDigit(version.charAt(end))
+        || version.charAt(end) == '.' || version.charAt(end) == '-')) {
+      end++;
+    }
+    return Arrays.stream(version.substring(start, end).split("[.-]"))
+        .filter(part -> !part.isEmpty())
+        .toArray(String[]::new);
+  }
+
+  /**
+   * Finds the first digit that starts a version-like sequence. Digits that continue a word,
+   * such as the "2" in "beta2", do not count.
+   *
+   * @param version the version string to inspect
+   * @return the index of the first version digit, or -1 when there is none
+   */
+  private static int firstVersionDigit(String version) {
+    for (var i = 0; i < version.length(); i++) {
+      if (Character.isDigit(version.charAt(i)) && !isWordCharacter(version, i - 1)) {
+        return i;
+      }
+    }
+    return -1;
+  }
+
+  private static boolean isWordCharacter(String version, int index) {
+    if (index < 0) {
+      return false;
+    }
+    var character = version.charAt(index);
+    return Character.isLetterOrDigit(character) || character == '_';
   }
 }
 ```

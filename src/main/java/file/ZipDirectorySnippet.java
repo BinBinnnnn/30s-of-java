@@ -67,14 +67,9 @@ public class ZipDirectorySnippet {
       return;
     }
     if (fileToZip.isDirectory()) {
-      if (fileName.endsWith("/")) {
-        zipOut.putNextEntry(new ZipEntry(fileName)); // To be zipped next
-        zipOut.closeEntry();
-      } else {
-        // Add the "/" mark explicitly to preserve structure while unzipping action is performed
-        zipOut.putNextEntry(new ZipEntry(fileName + "/"));
-        zipOut.closeEntry();
-      }
+      // Note: directory entries are intentionally NOT written. Creating an archive entry and
+      // immediately closing it without writing content produces an empty (broken) entry.
+      // The folder structure is preserved by the entry names of the files inside.
       var children = fileToZip.listFiles();
       for (var childFile : children) { // Recursively apply function to all children
         zipFile(childFile, fileName + "/" + childFile.getName(), zipOut);

@@ -1,0 +1,5033 @@
+﻿[
+    {
+        "key":  "AaD71Nx1jxKFjbrgH1aY",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/SafeCastSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "02ee3d64ca839e208433867a59ea332c",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "149329312+ayshgoyl@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2026-08-30T11:15:06+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD71OIXjxKFjbrgH1aZ",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/system/GetEnvOrDefaultSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "063e002a340d21193a6415e2ac376b36",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  35
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "127835696+vishalvana@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2026-08-30T11:13:39+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRxPKeBo1lwvHdn7",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/FormatBytesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  33,
+        "hash":  "97daba932e9f3bc9f1c2a31ce35d1761",
+        "textRange":  {
+                          "startLine":  33,
+                          "endLine":  33,
+                          "startOffset":  13,
+                          "endOffset":  31
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "99022565+saumyasharma810@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2025-03-31T17:37:52+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRsjKeBo1lwvHdnz",
+        "rule":  "java:S9391",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ArrayModeSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  56,
+        "hash":  "8fc87e005428180abef97afbb265efa7",
+        "textRange":  {
+                          "startLine":  56,
+                          "endLine":  56,
+                          "startOffset":  4,
+                          "endOffset":  7
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use a stream instead of this loop.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "faresshohdy0@gmail.com",
+        "tags":  [
+                     "convention",
+                     "java8",
+                     "readability"
+                 ],
+        "creationDate":  "2025-01-11T17:29:35+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRnXKeBo1lwvHdnj",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/LuhnModnSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "2a11079ca04701b7adeaed2ee8cbdfd3",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "132752271+karim-ashraf1@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2025-01-06T19:19:40+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_wKeBo1lwvHdoj",
+        "rule":  "java:S5786",
+        "severity":  "INFO",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/LuhnModnSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  40,
+        "hash":  "8cf76df112bfaa46fd25c4ed21d80cb2",
+        "textRange":  {
+                          "startLine":  40,
+                          "endLine":  40,
+                          "startOffset":  6,
+                          "endOffset":  25
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/LuhnModnSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  47,
+                                                                  "endLine":  47,
+                                                                  "startOffset":  2,
+                                                                  "endOffset":  8
+                                                              },
+                                                "msg":  "Remove this \u0027public\u0027 modifier."
+                                            }
+                                        ]
+                      },
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/LuhnModnSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  56,
+                                                                  "endLine":  56,
+                                                                  "startOffset":  2,
+                                                                  "endOffset":  8
+                                                              },
+                                                "msg":  "Remove this \u0027public\u0027 modifier."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove redundant visibility modifiers from the methods of this test class.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "132752271+karim-ashraf1@users.noreply.github.com",
+        "tags":  [
+                     "junit",
+                     "tests"
+                 ],
+        "creationDate":  "2025-01-06T19:19:40+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "INFO"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRepKeBo1lwvHdnT",
+        "rule":  "java:S2140",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/RandomNumber.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  59,
+        "hash":  "ffbf00781fbe52b1dc7b88e3277f2d7f",
+        "textRange":  {
+                          "startLine":  59,
+                          "endLine":  59,
+                          "startOffset":  24,
+                          "endOffset":  41
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use \"nextLong()\" instead.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "132752271+karim-ashraf1@users.noreply.github.com",
+        "tags":  [
+                     "clumsy",
+                     "performance"
+                 ],
+        "creationDate":  "2025-01-06T18:00:40+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "LOGICAL",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRnxKeBo1lwvHdnm",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/VerhoeffSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "c23be378c5e97de74b5682cd787c1fe6",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "151475621+zeyadwaleed7@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2024-12-14T05:32:33+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_6KeBo1lwvHdok",
+        "rule":  "java:S5785",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/VerhoeffSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  67,
+        "hash":  "833fe74c53651a99e04749deb59c7e24",
+        "textRange":  {
+                          "startLine":  67,
+                          "endLine":  67,
+                          "startOffset":  4,
+                          "endOffset":  14
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/VerhoeffSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  67,
+                                                                  "endLine":  67,
+                                                                  "startOffset":  15,
+                                                                  "endOffset":  37
+                                                              },
+                                                "msg":  "An equals check is performed here, which is better expressed with assertEquals."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Use assertEquals instead.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "151475621+zeyadwaleed7@users.noreply.github.com",
+        "tags":  [
+                     "junit",
+                     "tests"
+                 ],
+        "creationDate":  "2024-12-14T05:32:33+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRu8KeBo1lwvHdn2",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/KmpSubstringSearchSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  31,
+        "hash":  "eeb7376a3bd8f73c7dcc1cc95ce19a97",
+        "textRange":  {
+                          "startLine":  31,
+                          "endLine":  31,
+                          "startOffset":  13,
+                          "endOffset":  38
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "pandeysubash404@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2024-11-03T10:58:17+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRu8KeBo1lwvHdn3",
+        "rule":  "java:S7158",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/KmpSubstringSearchSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  41,
+        "hash":  "2edc1c71a63b4f1cdc1b7aa86f13fa5a",
+        "textRange":  {
+                          "startLine":  41,
+                          "endLine":  41,
+                          "startOffset":  27,
+                          "endOffset":  48
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use \"isEmpty()\" to check whether a \"String\" is empty or not.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "pandeysubash404@gmail.com",
+        "tags":  [
+
+                 ],
+        "creationDate":  "2024-11-03T10:58:17+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR0FKeBo1lwvHdn9",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/LindenmayerSystemSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "792b2b200ee9945c357208aea89bac1c",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  37
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "qassab300@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2024-11-03T10:42:01+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSDBKeBo1lwvHdou",
+        "rule":  "java:S5786",
+        "severity":  "INFO",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/string/LindenmayerSystemSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  38,
+        "hash":  "73ec6069ed0dce28c66124f361fabbf0",
+        "textRange":  {
+                          "startLine":  38,
+                          "endLine":  38,
+                          "startOffset":  6,
+                          "endOffset":  34
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/string/LindenmayerSystemSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  44,
+                                                                  "endLine":  44,
+                                                                  "startOffset":  2,
+                                                                  "endOffset":  8
+                                                              },
+                                                "msg":  "Remove this \u0027public\u0027 modifier."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove redundant visibility modifiers from the methods of this test class.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "qassab300@gmail.com",
+        "tags":  [
+                     "junit",
+                     "tests"
+                 ],
+        "creationDate":  "2024-11-03T10:42:01+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "INFO"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR9bKeBo1lwvHdoW",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/thread/ThreadSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "2fd1dc30ff5ff8e4b17ca7e5fcd73c9d",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  26
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "58256720+damian-crypto@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2024-09-22T08:17:20+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_UKeBo1lwvHdog",
+        "rule":  "java:S3415",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/thread/ThreadSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  55,
+        "hash":  "4d4d7e25fbe35c1865590d3c2203fa56",
+        "textRange":  {
+                          "startLine":  55,
+                          "endLine":  55,
+                          "startOffset":  32,
+                          "endOffset":  39
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/thread/ThreadSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  55,
+                                                                  "endLine":  55,
+                                                                  "startOffset":  17,
+                                                                  "endOffset":  30
+                                                              },
+                                                "msg":  "Other argument to swap."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Swap these 2 arguments so they are in the correct order: expected value, actual value.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "58256720+damian-crypto@users.noreply.github.com",
+        "tags":  [
+                     "junit",
+                     "suspicious",
+                     "tests"
+                 ],
+        "creationDate":  "2024-09-22T08:17:20+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "LOGICAL",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRt-KeBo1lwvHdn0",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/ReverseStringSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "edd6d91dc25b0744932a4df9c01ece59",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "ilkka.seppala@gofore.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2024-05-29T10:57:34+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRq0KeBo1lwvHdns",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ArrayModeInPlaceSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "905848bd8c44bf21f66ef4d52c7f4e65",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "35591503+xieguochao@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2024-05-25T04:47:23+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSA9KeBo1lwvHdom",
+        "rule":  "java:S1128",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/math/RandomNumberTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  31,
+        "hash":  "aef2dd53a8fe5ca092965f9a1c22123f",
+        "textRange":  {
+                          "startLine":  31,
+                          "endLine":  31,
+                          "startOffset":  7,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused import \u0027org.junit.jupiter.api.Test\u0027.",
+        "effort":  "1min",
+        "debt":  "1min",
+        "author":  "42525977+shanty97@users.noreply.github.com",
+        "tags":  [
+                     "unused"
+                 ],
+        "creationDate":  "2024-03-10T09:22:02+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRngKeBo1lwvHdnk",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/BinarySearchIn2dArraySnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "8dd04e5569bde1f9d688da60e1ecb065",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  41
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "114239198+vedantzope9@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-10-25T17:30:59+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRjbKeBo1lwvHdnc",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/LinearSearchIn2dArraySnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "da1a6a121ab1ed98961feb0de150efb1",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  41
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "114239198+vedantzope9@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-10-25T17:30:59+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRaMKeBo1lwvHdnO",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/EvenOdd.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "ef71494c3e863f6d13aee2cda0536d84",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  20
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "114239198+vedantzope9@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-10-25T17:30:59+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRhsKeBo1lwvHdnX",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/SquareRoot.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "f0712e90e6262be8849b868de9505598",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  23
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "114239198+vedantzope9@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-10-25T17:30:59+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_eKeBo1lwvHdoh",
+        "rule":  "java:S1481",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/BinarySearchIn2dArraySnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  42,
+        "hash":  "d220b8eb70f6e97d41717e6df25a8283",
+        "textRange":  {
+                          "startLine":  42,
+                          "endLine":  42,
+                          "startOffset":  15,
+                          "endOffset":  25
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused \"assertions\" local variable.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "114239198+vedantzope9@users.noreply.github.com",
+        "tags":  [
+                     "java22",
+                     "unused"
+                 ],
+        "creationDate":  "2023-10-25T17:30:59+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_nKeBo1lwvHdoi",
+        "rule":  "java:S1481",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/algorithm/LinearSearchIn2dArraySnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  42,
+        "hash":  "d220b8eb70f6e97d41717e6df25a8283",
+        "textRange":  {
+                          "startLine":  42,
+                          "endLine":  42,
+                          "startOffset":  15,
+                          "endOffset":  25
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused \"assertions\" local variable.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "114239198+vedantzope9@users.noreply.github.com",
+        "tags":  [
+                     "java22",
+                     "unused"
+                 ],
+        "creationDate":  "2023-10-25T17:30:59+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRrvKeBo1lwvHdnt",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ReverseArraySnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "01592c1d2f3e4b0a4c8135735ef5f806",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "alidehkhodaei1998@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-08-27T11:28:55+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRjsKeBo1lwvHdne",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/CycleSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "2c5ef4d445726701d02d28db3ffe4ef4",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-08-14T16:42:45+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRh1KeBo1lwvHdnY",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/LeastCommonMultipleSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "2a318be10b0799c3213b3741856c0397",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  39
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-07-02T07:39:25+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRpEKeBo1lwvHdnn",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/SieveOfEratosthenesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "ae33a038a5491a6cf9c9ec8eb131b130",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  39
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-06-25T11:07:39+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRpEKeBo1lwvHdno",
+        "rule":  "java:S1125",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/SieveOfEratosthenesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  44,
+        "hash":  "192c5037607e4d2cf80205b8ecebfc4a",
+        "textRange":  {
+                          "startLine":  44,
+                          "endLine":  44,
+                          "startOffset":  24,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove the unnecessary boolean literal.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "clumsy"
+                 ],
+        "creationDate":  "2023-06-25T11:07:39+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CONVENTIONAL",
+        "cleanCodeAttributeCategory":  "CONSISTENT",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRguKeBo1lwvHdnW",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/EloRatingSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "d4763e3501625a80a231204d813c8f0d",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "ap37@iitbbs.ac.in",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-06-25T11:05:06+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRguKeBo1lwvHdnV",
+        "rule":  "java:S1488",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/EloRatingSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  50,
+        "hash":  "e5b5f441d988113e6bc69f3033c280f2",
+        "textRange":  {
+                          "startLine":  50,
+                          "endLine":  51,
+                          "startOffset":  23,
+                          "endOffset":  50
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Immediately return this expression instead of assigning it to the temporary variable \"newRating\".",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "ap37@iitbbs.ac.in",
+        "tags":  [
+                     "clumsy"
+                 ],
+        "creationDate":  "2023-06-25T11:05:06+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR86KeBo1lwvHdoS",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/date/DateDifferenceSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  34,
+        "hash":  "cd9fa2cc6d5065d89962d4196e6d6624",
+        "textRange":  {
+                          "startLine":  34,
+                          "endLine":  34,
+                          "startOffset":  13,
+                          "endOffset":  34
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "alidehkhodaei1998@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-05-06T08:57:28+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRnpKeBo1lwvHdnl",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/BinarySearchSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "d58544759d3f85ddd35ec24be2f0f244",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-03-25T17:39:21+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR1XKeBo1lwvHdn-",
+        "rule":  "java:S127",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/PalindromCheckSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  42,
+        "hash":  "0dd578d50cfa4265d49d2164f357a42b",
+        "textRange":  {
+                          "startLine":  42,
+                          "endLine":  42,
+                          "startOffset":  8,
+                          "endOffset":  9
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Refactor the code in order to not assign to this loop counter from within the loop body.",
+        "effort":  "10min",
+        "debt":  "10min",
+        "author":  "39912670+addeusexmachina@users.noreply.github.com",
+        "tags":  [
+                     "pitfall"
+                 ],
+        "creationDate":  "2023-03-25T17:36:29+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR1XKeBo1lwvHdn_",
+        "rule":  "java:S127",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/PalindromCheckSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  45,
+        "hash":  "237224f1d3090eef483ef43c5270c63a",
+        "textRange":  {
+                          "startLine":  45,
+                          "endLine":  45,
+                          "startOffset":  8,
+                          "endOffset":  9
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Refactor the code in order to not assign to this loop counter from within the loop body.",
+        "effort":  "10min",
+        "debt":  "10min",
+        "author":  "39912670+addeusexmachina@users.noreply.github.com",
+        "tags":  [
+                     "pitfall"
+                 ],
+        "creationDate":  "2023-03-25T17:36:29+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSADKeBo1lwvHdol",
+        "rule":  "java:S1128",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/io/InputStreamToStringSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "943d54ba3e8812437c4d26ef8aa263f8",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  7,
+                          "endOffset":  19
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused import \u0027java.io.File\u0027.",
+        "effort":  "1min",
+        "debt":  "1min",
+        "author":  "38385332+bhaskar1312@users.noreply.github.com",
+        "tags":  [
+                     "unused"
+                 ],
+        "creationDate":  "2023-02-19T11:57:01+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRsSKeBo1lwvHdnx",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/FindMinSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "3fc812535453759a6d7af4c171112301",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  27
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-02-11T16:56:30+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRmMKeBo1lwvHdni",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/LinearSearchSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "75dfc5f1b3064b102937dee397217dc1",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "alidehkhodaei1998@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-02-05T18:23:37+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRj9KeBo1lwvHdng",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/MergeSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "e60393dd1eb21cfb81bc499cbb4279ae",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "90558243+manishdait@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-02-04T17:10:08+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR4SKeBo1lwvHdoF",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/DuplicateCharacterSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  33,
+        "hash":  "68ed2e43d938a3f3aa48b4c48a0b3c5e",
+        "textRange":  {
+                          "startLine":  33,
+                          "endLine":  33,
+                          "startOffset":  13,
+                          "endOffset":  38
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "70447283+alidehkhodaei@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-01-09T14:19:43+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR4SKeBo1lwvHdoG",
+        "rule":  "java:S9391",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/DuplicateCharacterSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  45,
+        "hash":  "630b0d8ecc42f0d47fc47ed3788236e5",
+        "textRange":  {
+                          "startLine":  45,
+                          "endLine":  45,
+                          "startOffset":  4,
+                          "endOffset":  7
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use a stream instead of this loop.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "70447283+alidehkhodaei@users.noreply.github.com",
+        "tags":  [
+                     "convention",
+                     "java8",
+                     "readability"
+                 ],
+        "creationDate":  "2023-01-09T14:19:43+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR4IKeBo1lwvHdoE",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/MaxCharacterCountSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "c9b1029d1fe7c3a1d13065ebfdba40fd",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  37
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "70447283+alidehkhodaei@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-01-08T17:27:31+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR22KeBo1lwvHdoC",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/CommonLettersSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  33,
+        "hash":  "8169e4d7ddd591368a9cbfc7a52e16b3",
+        "textRange":  {
+                          "startLine":  33,
+                          "endLine":  33,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "70447283+alidehkhodaei@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2023-01-06T08:28:21+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR22KeBo1lwvHdoD",
+        "rule":  "java:S9391",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/CommonLettersSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  44,
+        "hash":  "71aea951819db7b9024186fe80ba9ab3",
+        "textRange":  {
+                          "startLine":  44,
+                          "endLine":  44,
+                          "startOffset":  4,
+                          "endOffset":  7
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use a stream instead of this loop.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "70447283+alidehkhodaei@users.noreply.github.com",
+        "tags":  [
+                     "convention",
+                     "java8",
+                     "readability"
+                 ],
+        "creationDate":  "2023-01-06T08:28:21+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD71OhQjxKFjbrgH1ab",
+        "rule":  "java:S2143",
+        "severity":  "INFO",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/date/AddDaysToDateSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use the \"java.time\" API for date and time.",
+        "effort":  "15min",
+        "debt":  "15min",
+        "author":  "iluwatar@users.noreply.github.com",
+        "tags":  [
+                     "java8",
+                     "pitfall"
+                 ],
+        "creationDate":  "2022-12-06T16:56:08+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CONVENTIONAL",
+        "cleanCodeAttributeCategory":  "CONSISTENT",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "INFO"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD71OSejxKFjbrgH1aa",
+        "rule":  "java:S2143",
+        "severity":  "INFO",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/StringToDateSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Use the \"java.time\" API for date and time.",
+        "effort":  "15min",
+        "debt":  "15min",
+        "author":  "iluwatar@users.noreply.github.com",
+        "tags":  [
+                     "java8",
+                     "pitfall"
+                 ],
+        "creationDate":  "2022-12-06T16:56:08+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CONVENTIONAL",
+        "cleanCodeAttributeCategory":  "CONSISTENT",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "INFO"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRqsKeBo1lwvHdnr",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ArrayMeanSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "4ab2159ad9405c2b2c8251a786fb9264",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "98459426+sean-leichtle@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2022-11-29T17:38:40+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRpTKeBo1lwvHdnq",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ArrayMedianSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "35f5cf7c260891550173c84a9d96215a",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  31
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "98459426+sean-leichtle@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2022-11-29T17:38:40+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRsIKeBo1lwvHdnw",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ArraySumSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "71b5aa20e56ef1b1be873bd4e72fe6db",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "98459426+sean-leichtle@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2022-11-29T17:38:40+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR6tKeBo1lwvHdoR",
+        "rule":  "java:S1128",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/date/AddDaysToDateSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  28,
+        "hash":  "39688b6ca597ce8f74db399c06de76d2",
+        "textRange":  {
+                          "startLine":  28,
+                          "endLine":  28,
+                          "startOffset":  7,
+                          "endOffset":  23
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused import \u0027java.time.ZoneId\u0027.",
+        "effort":  "1min",
+        "debt":  "1min",
+        "author":  "akhatti.bscs16seecs@seecs.edu.pk",
+        "tags":  [
+                     "unused"
+                 ],
+        "creationDate":  "2022-08-07T13:24:41+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR6tKeBo1lwvHdoQ",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/date/AddDaysToDateSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  35,
+        "hash":  "dbca0873f41448fb55ecd4939289abc4",
+        "textRange":  {
+                          "startLine":  35,
+                          "endLine":  35,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "akhatti.bscs16seecs@seecs.edu.pk",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2022-08-07T13:24:41+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRchKeBo1lwvHdnR",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/LuhnSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "04027545bb6a3eb3b7ca6c5d9d60585c",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  24
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "92099246+soer-robin@users.noreply.github.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2021-10-15T17:26:55+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRchKeBo1lwvHdnQ",
+        "rule":  "java:S1488",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/LuhnSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  62,
+        "hash":  "2abbf4ee61fc19d93a510c9075d60197",
+        "textRange":  {
+                          "startLine":  62,
+                          "endLine":  62,
+                          "startOffset":  30,
+                          "endOffset":  52
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Immediately return this expression instead of assigning it to the temporary variable \"checksumDigit\".",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "92099246+soer-robin@users.noreply.github.com",
+        "tags":  [
+                     "clumsy"
+                 ],
+        "creationDate":  "2021-10-15T17:26:55+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRbkKeBo1lwvHdnP",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/NaturalNumberBinaryConversionSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  35,
+        "hash":  "e1bd0970289b6b09eb6fd84aaac5b744",
+        "textRange":  {
+                          "startLine":  35,
+                          "endLine":  35,
+                          "startOffset":  13,
+                          "endOffset":  49
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "kumarsendhil.129@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2021-10-09T22:29:48+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRkFKeBo1lwvHdnh",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/CountingSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "00c5a8682fa8e47c3488f8fc3de86049",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "thetechiesky@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2021-09-06T11:44:18+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRj1KeBo1lwvHdnf",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/InsertionSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "8c90ac50b17dcfb7afd0aa023b3463df",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-12-21T22:03:24+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRU5KeBo1lwvHdnF",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllMethodsSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  46,
+        "hash":  "7fb4ca3bdafe94c1165e7816973e258a",
+        "textRange":  {
+                          "startLine":  46,
+                          "endLine":  46,
+                          "startOffset":  17,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2020-12-15T06:07:31+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRwBKeBo1lwvHdn4",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/CompareVersionSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "28f678c26b67732103b22290af4dbad8",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  34
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "eiman.iranpour@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-10-15T22:59:42+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2199ee91-235b-4174-8056-6b39aba1d20e",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSC3KeBo1lwvHdot",
+        "rule":  "java:S5786",
+        "severity":  "INFO",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/string/CompareVersionSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  34,
+        "hash":  "4e907d5766c9657eda5668c4c0cc8254",
+        "textRange":  {
+                          "startLine":  34,
+                          "endLine":  34,
+                          "startOffset":  6,
+                          "endOffset":  31
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/string/CompareVersionSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  39,
+                                                                  "endLine":  39,
+                                                                  "startOffset":  2,
+                                                                  "endOffset":  8
+                                                              },
+                                                "msg":  "Remove this \u0027public\u0027 modifier."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove redundant visibility modifiers from the methods of this test class.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "eiman.iranpour@gmail.com",
+        "tags":  [
+                     "junit",
+                     "tests"
+                 ],
+        "creationDate":  "2020-10-15T22:59:42+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "INFO"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRaFKeBo1lwvHdnN",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/HaversineFormulaSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "d93077974bfdd65084104744f78f81de",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-09-30T20:20:48+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR9CKeBo1lwvHdoT",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/encoding/Base64DecodeSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "d4a1a48863966fc0fc352247743ddb83",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-09-30T19:25:06+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR9KKeBo1lwvHdoU",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/encoding/Base64EncodeSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "87e8bb7479adc5fca2f8c52ee21388e3",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-09-30T19:25:06+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZbKeBo1lwvHdnH",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllFieldNamesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  52,
+        "hash":  "6fd61d7b4346e7440f3905d38be78804",
+        "textRange":  {
+                          "startLine":  52,
+                          "endLine":  52,
+                          "startOffset":  23,
+                          "endOffset":  42
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2020-09-30T18:34:51+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZiKeBo1lwvHdnI",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllPublicFieldNamesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  35,
+        "hash":  "74e5850bc1bb2d136f4034ce1e11fc79",
+        "textRange":  {
+                          "startLine":  35,
+                          "endLine":  35,
+                          "startOffset":  13,
+                          "endOffset":  42
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-09-30T18:34:51+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZiKeBo1lwvHdnJ",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllPublicFieldNamesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  46,
+        "hash":  "7fb4ca3bdafe94c1165e7816973e258a",
+        "textRange":  {
+                          "startLine":  46,
+                          "endLine":  46,
+                          "startOffset":  17,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2020-09-30T18:34:51+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD71OrijxKFjbrgH1ae",
+        "rule":  "java:S1068",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/cls/GetAllFieldNamesSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  44,
+        "hash":  "f0b12d3a0aaad3a191d9fcb611993eba",
+        "textRange":  {
+                          "startLine":  44,
+                          "endLine":  44,
+                          "startOffset":  18,
+                          "endOffset":  31
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused \"superFieldTwo\" private field.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "unused"
+                 ],
+        "creationDate":  "2020-09-30T18:34:51+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD71OrijxKFjbrgH1af",
+        "rule":  "java:S1068",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/cls/GetAllFieldNamesSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  49,
+        "hash":  "c727968cd6ba81e64583452c5627d831",
+        "textRange":  {
+                          "startLine":  49,
+                          "endLine":  49,
+                          "startOffset":  18,
+                          "endOffset":  26
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove this unused \"fieldTwo\" private field.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "swarajpalsaaj@yahoo.co.in",
+        "tags":  [
+                     "unused"
+                 ],
+        "creationDate":  "2020-09-30T18:34:51+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR5GKeBo1lwvHdoM",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ZipDirectorySnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  37,
+        "hash":  "2acc24ea2c14543d71c12cd2835bd9b4",
+        "textRange":  {
+                          "startLine":  37,
+                          "endLine":  37,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "adityapal.nghss@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-09-26T07:27:53+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD71Ox8jxKFjbrgH1ag",
+        "rule":  "java:S2093",
+        "severity":  "CRITICAL",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/file/ZipDirectorySnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  50,
+        "hash":  "80d5b17efc16ace990c07580fc3e85eb",
+        "textRange":  {
+                          "startLine":  50,
+                          "endLine":  50,
+                          "startOffset":  4,
+                          "endOffset":  7
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/file/ZipDirectorySnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  53,
+                                                                  "endLine":  53,
+                                                                  "startOffset":  20,
+                                                                  "endOffset":  56
+                                                              },
+                                                "msg":  "AutoCloseable resource"
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Change this \"try\" to a try-with-resources.",
+        "effort":  "15min",
+        "debt":  "15min",
+        "author":  "adityapal.nghss@gmail.com",
+        "tags":  [
+                     "cert",
+                     "java8",
+                     "pitfall"
+                 ],
+        "creationDate":  "2020-09-26T07:27:53+0000",
+        "updateDate":  "2026-10-02T08:53:56+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CONVENTIONAL",
+        "cleanCodeAttributeCategory":  "CONSISTENT",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "HIGH"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "2d2d7635-9936-45fe-a23a-2409ab54ab1c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR9SKeBo1lwvHdoV",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/thread/ThreadPool.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  33,
+        "hash":  "0f0a8109e65a9e0f31964d2695704f47",
+        "textRange":  {
+                          "startLine":  33,
+                          "endLine":  33,
+                          "startOffset":  13,
+                          "endOffset":  23
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-09-04T20:07:05+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_MKeBo1lwvHdof",
+        "rule":  "java:S5786",
+        "severity":  "INFO",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/thread/ThreadPoolTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  37,
+        "hash":  "514f86a1ca574151617aba80b4293091",
+        "textRange":  {
+                          "startLine":  37,
+                          "endLine":  37,
+                          "startOffset":  6,
+                          "endOffset":  20
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/thread/ThreadPoolTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  42,
+                                                                  "endLine":  42,
+                                                                  "startOffset":  2,
+                                                                  "endOffset":  8
+                                                              },
+                                                "msg":  "Remove this \u0027public\u0027 modifier."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Remove redundant visibility modifiers from the methods of this test class.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "junit",
+                     "tests"
+                 ],
+        "creationDate":  "2020-09-04T20:07:05+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "INFO"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRjSKeBo1lwvHdnb",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/BubbleSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "d18f73fd1d06ef0a690d07498ac41f8b",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  30
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRjJKeBo1lwvHdna",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/QuickSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "b820d23bee24f84700a9c25c56f5d825",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRjkKeBo1lwvHdnd",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/algorithm/SelectionSortSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "b49d7b12c0e115968b40e9ce0b1ef093",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRsaKeBo1lwvHdny",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/AllEqualSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "be1a13acf6e478d6b3d21b28c9fdd157",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRsAKeBo1lwvHdnv",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/ArrayConcatSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "c4db81647de9818992a3bee6f7da877d",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  31
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRr4KeBo1lwvHdnu",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/FindMaxSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "0161ec94c3c5c6cda24f28d28effc415",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  27
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRpMKeBo1lwvHdnp",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/array/MultiArrayConcatenationSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "cc148a1f8416a4b5937739a7f66ce129",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  43
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZpKeBo1lwvHdnK",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/CreatingObjectSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "062e0b2357591586f654067ed32fe558",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  34
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZbKeBo1lwvHdnG",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllFieldNamesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  36,
+        "hash":  "dd3da0bed36b484b45a0f71c20e90815",
+        "textRange":  {
+                          "startLine":  36,
+                          "endLine":  36,
+                          "startOffset":  13,
+                          "endOffset":  36
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRU5KeBo1lwvHdnE",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/cls/GetAllMethodsSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  35,
+        "hash":  "efd789afeea137f25b908e62136978c5",
+        "textRange":  {
+                          "startLine":  35,
+                          "endLine":  35,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR4sKeBo1lwvHdoJ",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ListAllFilesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  34,
+        "hash":  "09afab4592c97518d1ca9407d97c90c2",
+        "textRange":  {
+                          "startLine":  34,
+                          "endLine":  34,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR41KeBo1lwvHdoK",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ListDirectoriesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "e2e656dfa3857002670cab052c9c2b6b",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  35
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR4kKeBo1lwvHdoI",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ListFilesInDirectorySnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "f5200830637afec5b4c7165e731c2336",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  40
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR49KeBo1lwvHdoL",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ReadLinesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  35,
+        "hash":  "fd51036271816f6f0fc2f3777896bba7",
+        "textRange":  {
+                          "startLine":  35,
+                          "endLine":  35,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR4aKeBo1lwvHdoH",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ZipFileSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  37,
+        "hash":  "5fba0f92e10d841bf7ed1f41a8a1665e",
+        "textRange":  {
+                          "startLine":  37,
+                          "endLine":  37,
+                          "startOffset":  13,
+                          "endOffset":  27
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR6jKeBo1lwvHdoP",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/file/ZipFilesSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  37,
+        "hash":  "920324e6f35ea368849267bd3edea68e",
+        "textRange":  {
+                          "startLine":  37,
+                          "endLine":  37,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR-vKeBo1lwvHdoa",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/io/InputStreamToStringSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  36,
+        "hash":  "710605fb2a807ff3c7bb228abea7a0dd",
+        "textRange":  {
+                          "startLine":  36,
+                          "endLine":  36,
+                          "startOffset":  13,
+                          "endOffset":  39
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR-nKeBo1lwvHdoY",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/io/ReadFileSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  37,
+        "hash":  "72942010c9b87839d63b52c1731595f1",
+        "textRange":  {
+                          "startLine":  37,
+                          "endLine":  37,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRehKeBo1lwvHdnS",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/FactorialSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "3c4b101a15788c5300d22911b851f196",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRjAKeBo1lwvHdnZ",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/FibonacciSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  33,
+        "hash":  "7cae2fe348e09b33ad91847ee6b1712a",
+        "textRange":  {
+                          "startLine":  33,
+                          "endLine":  33,
+                          "startOffset":  13,
+                          "endOffset":  29
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZ1KeBo1lwvHdnL",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/GreatestCommonDivisorSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "51a1e662f6ad504054ef578ff1186a49",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  41
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRgmKeBo1lwvHdnU",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/PerformLotterySnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  33,
+        "hash":  "1721c24aec7b5b6657b63f7d586f5387",
+        "textRange":  {
+                          "startLine":  33,
+                          "endLine":  33,
+                          "startOffset":  13,
+                          "endOffset":  34
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRZ9KeBo1lwvHdnM",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/math/PrimeNumberSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "ef556f9da14ceb2a8dc26b5ca265c17b",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  31
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR-fKeBo1lwvHdoX",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/media/CaptureScreenSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  38,
+        "hash":  "1344446788f1e0d2bdb5328e2edd8637",
+        "textRange":  {
+                          "startLine":  38,
+                          "endLine":  38,
+                          "startOffset":  13,
+                          "endOffset":  33
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_BKeBo1lwvHdoe",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/network/HttpGetSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  35,
+        "hash":  "4e3618c77e21780279e6456b85d7f9f3",
+        "textRange":  {
+                          "startLine":  35,
+                          "endLine":  35,
+                          "startOffset":  13,
+                          "endOffset":  27
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR_BKeBo1lwvHdod",
+        "rule":  "java:S112",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/network/HttpGetSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  44,
+        "hash":  "583c111c20c0ab0d184bf509ab97da57",
+        "textRange":  {
+                          "startLine":  44,
+                          "endLine":  44,
+                          "startOffset":  64,
+                          "endOffset":  73
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace generic exceptions with specific library exceptions or a custom exception.",
+        "effort":  "20min",
+        "debt":  "20min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "cert",
+                     "cwe",
+                     "error-handling"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "COMPLETE",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR-4KeBo1lwvHdoc",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/network/HttpPostSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  40,
+        "hash":  "2d6ae8330566513e4a70aa164adf4993",
+        "textRange":  {
+                          "startLine":  40,
+                          "endLine":  40,
+                          "startOffset":  13,
+                          "endOffset":  28
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRz8KeBo1lwvHdn8",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/AnagramSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  32,
+        "hash":  "977bc37175582dc7c126c9170a443eef",
+        "textRange":  {
+                          "startLine":  32,
+                          "endLine":  32,
+                          "startOffset":  13,
+                          "endOffset":  27
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR2uKeBo1lwvHdoB",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/LevenshteinDistanceSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "1790d1eae8993d2d08418eae8bf5abb2",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  39
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR1XKeBo1lwvHdoA",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/PalindromCheckSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  30,
+        "hash":  "befa6c60c08d13294e8f748ec8b3f679",
+        "textRange":  {
+                          "startLine":  30,
+                          "endLine":  30,
+                          "startOffset":  13,
+                          "endOffset":  34
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xRuzKeBo1lwvHdn1",
+        "rule":  "java:S1118",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/string/StringToDateSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  34,
+        "hash":  "86b5986636fd93f1664b427c5d509fff",
+        "textRange":  {
+                          "startLine":  34,
+                          "endLine":  34,
+                          "startOffset":  13,
+                          "endOffset":  32
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Add a private constructor to hide the implicit public one.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "design"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSCsKeBo1lwvHdor",
+        "rule":  "java:S3415",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/array/ArrayConcatSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  43,
+        "hash":  "5c6d0ed29764d9739dd5f3727178b185",
+        "textRange":  {
+                          "startLine":  43,
+                          "endLine":  43,
+                          "startOffset":  34,
+                          "endOffset":  36
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/array/ArrayConcatSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  43,
+                                                                  "endLine":  43,
+                                                                  "startOffset":  17,
+                                                                  "endOffset":  32
+                                                              },
+                                                "msg":  "Other argument to swap."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Swap these 2 arguments so they are in the correct order: expected value, actual value.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "junit",
+                     "suspicious",
+                     "tests"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "LOGICAL",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSCsKeBo1lwvHdos",
+        "rule":  "java:S3415",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/array/ArrayConcatSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  45,
+        "hash":  "09894d7203d7d4cb16d6ed97b564667e",
+        "textRange":  {
+                          "startLine":  45,
+                          "endLine":  45,
+                          "startOffset":  33,
+                          "endOffset":  34
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/array/ArrayConcatSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  45,
+                                                                  "endLine":  45,
+                                                                  "startOffset":  17,
+                                                                  "endOffset":  31
+                                                              },
+                                                "msg":  "Other argument to swap."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Swap these 2 arguments so they are in the correct order: expected value, actual value.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "junit",
+                     "suspicious",
+                     "tests"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "LOGICAL",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSCjKeBo1lwvHdop",
+        "rule":  "java:S3415",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/array/MultiArrayConcatenationSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  43,
+        "hash":  "fdb3f9153ba99804d2597d844ed6fe16",
+        "textRange":  {
+                          "startLine":  43,
+                          "endLine":  43,
+                          "startOffset":  32,
+                          "endOffset":  33
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/array/MultiArrayConcatenationSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  43,
+                                                                  "endLine":  43,
+                                                                  "startOffset":  17,
+                                                                  "endOffset":  30
+                                                              },
+                                                "msg":  "Other argument to swap."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Swap these 2 arguments so they are in the correct order: expected value, actual value.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "junit",
+                     "suspicious",
+                     "tests"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "LOGICAL",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xSCjKeBo1lwvHdoq",
+        "rule":  "java:S3415",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/test/java/array/MultiArrayConcatenationSnippetTest.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  49,
+        "hash":  "af39e79cd616a36a17f623998a849aa1",
+        "textRange":  {
+                          "startLine":  49,
+                          "endLine":  49,
+                          "startOffset":  34,
+                          "endOffset":  36
+                      },
+        "flows":  [
+                      {
+                          "locations":  [
+                                            {
+                                                "component":  "BinBinnnnn_30s-of-java:src/test/java/array/MultiArrayConcatenationSnippetTest.java",
+                                                "textRange":  {
+                                                                  "startLine":  49,
+                                                                  "endLine":  49,
+                                                                  "startOffset":  17,
+                                                                  "endOffset":  32
+                                                              },
+                                                "msg":  "Other argument to swap."
+                                            }
+                                        ]
+                      }
+                  ],
+        "status":  "OPEN",
+        "message":  "Swap these 2 arguments so they are in the correct order: expected value, actual value.",
+        "effort":  "2min",
+        "debt":  "2min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "junit",
+                     "suspicious",
+                     "tests"
+                 ],
+        "creationDate":  "2020-08-24T10:04:10+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "LOGICAL",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR-nKeBo1lwvHdoZ",
+        "rule":  "java:S6204",
+        "severity":  "MAJOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/io/ReadFileSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  47,
+        "hash":  "909def4ed295c92b8d34024fa5a5596d",
+        "textRange":  {
+                          "startLine":  47,
+                          "endLine":  47,
+                          "startOffset":  28,
+                          "endOffset":  47
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "Replace this usage of \u0027Stream.collect(Collectors.toList())\u0027 with \u0027Stream.toList()\u0027 and ensure that the list is unmodified.",
+        "effort":  "5min",
+        "debt":  "5min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "java16"
+                 ],
+        "creationDate":  "2020-08-19T23:09:58+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CLEAR",
+        "cleanCodeAttributeCategory":  "INTENTIONAL",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "MEDIUM"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    },
+    {
+        "key":  "AaD7xR-4KeBo1lwvHdob",
+        "rule":  "java:S1319",
+        "severity":  "MINOR",
+        "component":  "BinBinnnnn_30s-of-java:src/main/java/network/HttpPostSnippet.java",
+        "project":  "BinBinnnnn_30s-of-java",
+        "line":  51,
+        "hash":  "a0acc12e5dcc1b54a54b8a28d91d4c3a",
+        "textRange":  {
+                          "startLine":  51,
+                          "endLine":  51,
+                          "startOffset":  62,
+                          "endOffset":  69
+                      },
+        "flows":  [
+
+                  ],
+        "status":  "OPEN",
+        "message":  "The type of \"arguments\" should be an interface such as \"Map\" rather than the implementation \"HashMap\".",
+        "effort":  "10min",
+        "debt":  "10min",
+        "author":  "grzesiekkedzior@gmail.com",
+        "tags":  [
+                     "bad-practice"
+                 ],
+        "creationDate":  "2020-08-19T23:09:58+0000",
+        "updateDate":  "2026-10-02T08:39:39+0000",
+        "type":  "CODE_SMELL",
+        "organization":  "binbinnnnn",
+        "cleanCodeAttribute":  "CONVENTIONAL",
+        "cleanCodeAttributeCategory":  "CONSISTENT",
+        "impacts":  [
+                        {
+                            "softwareQuality":  "MAINTAINABILITY",
+                            "severity":  "LOW"
+                        }
+                    ],
+        "issueStatus":  "OPEN",
+        "projectName":  "30-seconds-of-java",
+        "internalTags":  [
+
+                         ],
+        "lastChangeAnalysisUuid":  "92e9206b-f054-4b9a-9362-ca3a86f8ba0c",
+        "lastChangeSource":  "ANALYSIS"
+    }
+]

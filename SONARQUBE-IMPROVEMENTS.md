@@ -222,6 +222,63 @@ $env:GRADLE_USER_HOME='C:\tmp\gradle-home'
 - 打开 <https://sonarcloud.io/project/overview?id=BinBinnnnn_30s-of-java> 查看在线面板。
 
 ---
+### 改动 5：修复全部 Bug（Sonar 标记 5 个 + 本地发现 1 个）/ Change 5: Fix all bugs (5 flagged by Sonar + 1 found locally)
+
+**日期 / Date**: 2026-10-02
+
+**改了什么 / What changed**
+
+| # | 文件 File | 问题 Problem | 修复方式 Fix |
+|---|-----------|--------------|--------------|
+| 1 | `src/main/java/string/CompareVersionSnippet.java` | 版本号提取用了"嵌套重复"的正则，遇到很长的输入会栈溢出或长时间回溯（Sonar S5998 + S8786） | 去掉正则，改为逐字符解析：先定位第一段"版本号数字"，再收集数字与分隔符，最后用 Stream 过滤拆分 |
+| 2 | `src/main/java/file/ZipDirectorySnippet.java` | 压缩目录时会写入**空的目录条目**，产生不完整的压缩包（Sonar S9342，2 处） | 不再写目录条目；目录结构由文件条目的路径自动保留 |
+| 3 | `src/main/java/network/HttpGetSnippet.java` | `HttpClient` 用完没有关闭，反复调用会泄漏资源（Sonar S2095，BLOCKER） | 改用 try-with-resources 自动关闭 |
+| 4 | `src/main/java/network/HttpPostSnippet.java` | 同上（Sonar S2095，BLOCKER） | 改用 try-with-resources 自动关闭 |
+| 5 | `src/main/java/system/GetEnvOrDefaultSnippet.java` | 本地发现：`System.getenv().getOrDefault("PATH", ...)` 在 Windows 上因环境变量名大小写不一致而取不到值，测试失败 | 改用大小写不敏感的 `System.getenv(key)` 再判空 |
+| 6 | `src/test/java/file/ZipDirectorySnippetTest.java` | 测试随修复 #2 的行为变化更新 | 压缩包条目数 4 → 2；目录条目断言 2 → 0 |
+
+**中文补充**：`README.md` 中对应的 5 个代码片段（Compare Version、Zip Directory、HTTP GET、HTTP POST、Get Env Or Default）已同步更新，保持文档与代码一致。修复过程中一度引入 1 个新的坏味道（S9391"建议用 Stream"），已在同一步内改掉，**没有给项目留下新问题**。
+
+**English**: The five corresponding snippets in `README.md` (Compare Version, Zip Directory, HTTP GET, HTTP POST, Get Env Or Default) were updated to match the code. One new code smell (S9391) was briefly introduced and fixed within the same step, so **no new issues were left behind**.
+
+**为什么 / Why**
+
+**中文**：任务要求"修复所有已识别的 Bug"。其中 5 个来自 SonarCloud 的标记，第 6 个是本机 Windows 环境下测试失败暴露出来的真实 Bug（同一个程序在 Linux 上恰好不报错，属于隐蔽问题）。
+
+**English**: The assignment requires fixing all identified bugs. Five came from SonarCloud; the sixth is a genuine bug revealed by a failing test on this Windows machine (the same code happens to work on Linux, which makes it a sneaky problem).
+
+**验证结果 / Verification**
+
+| 检查项 Check | 修复前 Before | 修复后 After |
+|--------------|---------------|--------------|
+| Sonar Bugs | 5 | **0** ✅ |
+| Sonar 可靠性评级 Reliability Rating | E（5.0，最差） | **A（1.0，最好）** ✅ |
+| 本地测试 Tests | 238 个中 1 个失败 | **238 个全部通过** ✅ |
+| Checkstyle | 0 违规 | 0 违规 ✅ |
+| 代码坏味道 Code Smells | 111 | 108 |
+| 技术债 Technical Debt | 573 分钟 | 549 分钟 |
+| 行覆盖率 Line Coverage | 85.1% | 85.4% |
+
+复扫数据已保存 / Re-scan data saved: `quality-reports/sonar-after-bugfix-issues.json`、`quality-reports/sonar-after-bugfix-measures.json`
+
+**怎么验证 / How to verify**
+
+```powershell
+cd C:\tmp\30s-project
+$env:GRADLE_USER_HOME='C:\tmp\gradle-home'
+.\gradlew.bat build --no-daemon --console=plain          # 应显示 BUILD SUCCESSFUL，238 个测试全过
+.\gradlew.bat sonarqube -x test --no-daemon --console=plain   # 上传复扫
+```
+
+**怎么退回 / How to roll back**
+
+```bash
+git revert <本次提交号>      # 只撤销这一步
+# 或
+git switch master            # 回到最初的备份状态
+```
+
+---
 ## 3. 通用回滚方法 / General Rollback Guide
 
 | 想退回到哪里 / Go back to | 命令 / Command |
