@@ -169,6 +169,42 @@ $env:GRADLE_USER_HOME='C:\tmp\gradle-home'
 **English**: The local project path contains Chinese characters (`C:\Users\马斌\...`), which prevents Gradle's forked test process from reading the classpath (symptom: "test class not found"). This is a local-run environment issue, not a code problem; the workaround is in section 5. Also, the garbled copyright header seen in the terminal is only a display artifact - the files themselves are valid UTF-8.
 
 ---
+### 改动 4：保存 SonarCloud 基线分析结果 / Change 4: Save the SonarCloud baseline analysis results
+
+**日期 / Date**: 2026-10-02
+
+**做了什么 / What was done**
+
+**中文**：
+- 在项目里新建 `quality-reports/` 文件夹，把这次分析的全部结果存档：
+  - `sonar-baseline-report.md` —— 完整可读报告：指标总览、5 个 Bug 明细、111 个代码坏味道明细、规则速查表、本地测试与覆盖率基线、复现命令；
+  - `sonar-baseline-issues.json` —— SonarCloud 返回的原始问题清单（116 条，机器可读）；
+  - `sonar-baseline-measures.json` —— 指标原始数据；
+  - `sonar-baseline-quality-gate.json` —— 质量门状态。
+- 修改 `build.gradle` 里的分析目标：`sonar.projectKey` 和 `sonar.organization` 由原作者组织（iluwatar）改为你自己的 SonarCloud 项目（`BinBinnnnn_30s-of-java` / `binbinnnnn`）。以后本地扫描和你仓库的 GitHub Actions 都会把结果上传到**你自己的**项目面板。
+- 在 SonarCloud 网页上关闭了项目的"Automatic Analysis（自动分析）"开关（它不带测试覆盖率，且与完整扫描冲突）。
+
+**English**:
+- Created a `quality-reports/` folder and archived the full analysis results:
+  - `sonar-baseline-report.md` - the full readable report: metrics overview, the 5 bugs, all 111 code smells, a rule reference table, the local test & coverage baseline, and reproduction commands;
+  - `sonar-baseline-issues.json` - the raw issue list returned by SonarCloud (116 issues, machine readable);
+  - `sonar-baseline-measures.json` - raw metric data;
+  - `sonar-baseline-quality-gate.json` - quality gate status.
+- Changed the analysis target in `build.gradle`: `sonar.projectKey` and `sonar.organization` were switched from the original author's organization (iluwatar) to your own SonarCloud project (`BinBinnnnn_30s-of-java` / `binbinnnnn`). From now on, both local scans and your repository's GitHub Actions upload results to **your own** dashboard.
+- Turned off the project's "Automatic Analysis" switch on the SonarCloud website (it does not include test coverage and conflicts with the full analysis).
+
+**为什么 / Why**
+
+**中文**：把"修复前"的完整证据保存下来，方便对照修复效果、回看细节、写作业报告。配置改成你自己的项目，是为了让指标真实反映你的仓库，而不是原作者的项目。
+
+**English**: To keep the complete "before" evidence for comparison, review, and the assignment report. The configuration change makes the metrics reflect your own repository instead of the original author's project.
+
+**怎么验证 / How to verify**
+
+- 打开 `quality-reports/sonar-baseline-report.md` 查看全部明细；
+- 打开 <https://sonarcloud.io/project/overview?id=BinBinnnnn_30s-of-java> 查看在线面板。
+
+---
 ## 3. 通用回滚方法 / General Rollback Guide
 
 | 想退回到哪里 / Go back to | 命令 / Command |
