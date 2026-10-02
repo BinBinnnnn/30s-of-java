@@ -15,6 +15,23 @@
 
 ---
 
+### 0.1 工作规则：每一步都留痕 / Working Rule: Leave a Trace at Every Step
+
+**中文**：按项目负责人的要求（2026-10-02），每一步工作都必须留下记录，具体做法：
+
+1. **做之前**：先说明这一步要做什么、会动哪些文件；
+2. **做完后**：立刻验证（编译、跑测试、复看指标），并把"改了什么、为什么改、怎么验证、出问题怎么退回"写进本文档；
+3. **留档**：代码和文档一起提交（commit）并推送到 GitHub，**每一步一个存档点**；
+4. **停下确认**：向负责人汇报本步结果，征得同意后才开始下一步。
+
+**English**: At the project owner's request (2026-10-02), every step must leave a trace:
+
+1. **Before**: state what the step will do and which files it will touch;
+2. **After**: verify immediately (build, run tests, re-check metrics) and write down "what changed, why, how it was verified, and how to roll back" in this document;
+3. **Archive**: commit the code and document together and push to GitHub - **one save point per step**;
+4. **Pause and confirm**: report the result to the owner and wait for approval before starting the next step.
+
+---
 ## 1. 任务目标 / Goals
 
 来自任务的 5 项目标（对应 SonarQube 上要达成的指标）：
